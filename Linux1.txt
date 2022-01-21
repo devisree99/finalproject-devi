@@ -1,0 +1,1743 @@
+devi77@LAPTOP-18KCPA72:~$ pwd
+/home/devi77
+devi77@LAPTOP-18KCPA72:~$ ls
+Hashmum         dear.sh                 extention        haiscript.sh    multiple.sh      tempy
+ZING            details.sh              favfood.sh       ifelse.sh       myinfo.txt       tomcat
+Zing            detailss.sh             favfruit.sh      info.sh         odd.sh           ubuntu.txt
+abcimplex       devi                    fib.sh           inform.sh       oddd.sh          user1
+abclmpex        devi.sh                 fibonacci.sh     information.sh  odddnum.sh       user2
+animal.sh       devi_orchestrate.yml    friendscript.sh  initialZing     oddnum.sh        user3
+args.sh         devi_playbook           func.sh          initialgalaxy   pod.yaml         user4
+bestfriends.sh  devii                   funcc.sh         input.sh        prime.sh         while.sh
+besties.sh      devii.yml               function.sh      main.yml        primenumbers.sh  zing
+bootcamp        deviii_orchestrate.yml  functions.sh     message.yml     prometheus.yml
+creat.yml       employee.yml            funny.txt        mul.sh          ss.sh
+daemon.json     enjoy.txt               gg.sh            mull.sh         start-tomcat
+dear            eveodd.sh               ggg.sh           multi.sh        temp
+devi77@LAPTOP-18KCPA72:~$ cd temp
+devi77@LAPTOP-18KCPA72:~/temp$ ls
+devi77@LAPTOP-18KCPA72:~/temp$ mkdir abdtutor
+devi77@LAPTOP-18KCPA72:~/temp$ cd abdtutor
+devi77@LAPTOP-18KCPA72:~/temp/abdtutor$ mkdir dir1
+devi77@LAPTOP-18KCPA72:~/temp/abdtutor$ ls
+dir1
+devi77@LAPTOP-18KCPA72:~/temp/abdtutor$ mkdir dir2
+devi77@LAPTOP-18KCPA72:~/temp/abdtutor$ ls
+dir1  dir2
+devi77@LAPTOP-18KCPA72:~/temp/abdtutor$ cd dir1
+devi77@LAPTOP-18KCPA72:~/temp/abdtutor/dir1$ cd ..
+devi77@LAPTOP-18KCPA72:~/temp/abdtutor$ cd dir2
+devi77@LAPTOP-18KCPA72:~/temp/abdtutor/dir2$ cd/
+-bash: cd/: No such file or directory
+devi77@LAPTOP-18KCPA72:~/temp/abdtutor/dir2$ cd /
+devi77@LAPTOP-18KCPA72:/$ pwd
+/
+devi77@LAPTOP-18KCPA72:/$ ls
+bin   dev  home  lib    lib64   lost+found  mnt  proc  run   snap  sys  usr
+boot  etc  init  lib32  libx32  media       opt  root  sbin  srv   tmp  var
+devi77@LAPTOP-18KCPA72:/$ cd usr
+devi77@LAPTOP-18KCPA72:/usr$ ls
+bin  config  games  include  lib  lib32  lib64  libexec  libx32  local  sbin  share  src
+devi77@LAPTOP-18KCPA72:/usr$ cd /
+devi77@LAPTOP-18KCPA72:/$ cd sys
+devi77@LAPTOP-18KCPA72:/sys$ ls
+block  bus  class  dev  devices  firmware  fs  kernel  module
+devi77@LAPTOP-18KCPA72:/sys$ cd /
+devi77@LAPTOP-18KCPA72:/$ cd udr/local
+-bash: cd: udr/local: No such file or directory
+devi77@LAPTOP-18KCPA72:/$ cd usr/local
+devi77@LAPTOP-18KCPA72:/usr/local$ ls
+bin  etc  games  include  lib  man  sbin  share  src
+devi77@LAPTOP-18KCPA72:/usr/local$ cd /
+devi77@LAPTOP-18KCPA72:/$ cd usr/games
+devi77@LAPTOP-18KCPA72:/usr/games$ cd
+devi77@LAPTOP-18KCPA72:~$ pwd
+/home/devi77
+devi77@LAPTOP-18KCPA72:~$ cd temp
+devi77@LAPTOP-18KCPA72:~/temp$ ls
+abdtutor
+devi77@LAPTOP-18KCPA72:~/temp$ mkdir -p foldr1/infoldr
+devi77@LAPTOP-18KCPA72:~/temp$ ls
+abdtutor  foldr1
+devi77@LAPTOP-18KCPA72:~/temp$ cd foldr1
+devi77@LAPTOP-18KCPA72:~/temp/foldr1$ ls
+infoldr
+devi77@LAPTOP-18KCPA72:~/temp/foldr1$ cd
+devi77@LAPTOP-18KCPA72:~$ pwd
+/home/devi77
+devi77@LAPTOP-18KCPA72:~$ ls > outputfile.txt
+devi77@LAPTOP-18KCPA72:~$ cat outputfile.txt
+Hashmum
+ZING
+Zing
+abcimplex
+abclmpex
+animal.sh
+args.sh
+bestfriends.sh
+besties.sh
+bootcamp
+creat.yml
+daemon.json
+dear
+dear.sh
+details.sh
+detailss.sh
+devi
+devi.sh
+devi_orchestrate.yml
+devi_playbook
+devii
+devii.yml
+deviii_orchestrate.yml
+employee.yml
+enjoy.txt
+eveodd.sh
+extention
+favfood.sh
+favfruit.sh
+fib.sh
+fibonacci.sh
+friendscript.sh
+func.sh
+funcc.sh
+function.sh
+functions.sh
+funny.txt
+gg.sh
+ggg.sh
+haiscript.sh
+ifelse.sh
+info.sh
+inform.sh
+information.sh
+initialZing
+initialgalaxy
+input.sh
+main.yml
+message.yml
+mul.sh
+mull.sh
+multi.sh
+multiple.sh
+myinfo.txt
+odd.sh
+oddd.sh
+odddnum.sh
+oddnum.sh
+outputfile.txt
+pod.yaml
+prime.sh
+primenumbers.sh
+prometheus.yml
+ss.sh
+start-tomcat
+temp
+tempy
+tomcat
+ubuntu.txt
+user1
+user2
+user3
+user4
+while.sh
+zing
+devi77@LAPTOP-18KCPA72:~$ cd temp
+devi77@LAPTOP-18KCPA72:~/temp$ cd foldr1
+devi77@LAPTOP-18KCPA72:~/temp/foldr1$ echo "Helo welcome to linux session" > mytext.txt
+devi77@LAPTOP-18KCPA72:~/temp/foldr1$ cat mytext.txt
+Helo welcome to linux session
+devi77@LAPTOP-18KCPA72:~/temp/foldr1$ cat my*
+Helo welcome to linux session
+devi77@LAPTOP-18KCPA72:~/temp/foldr1$ echo "Hi All! we are doing greatcat mytext.txt > mytext1.txt
+> " > mytext1,txt
+devi77@LAPTOP-18KCPA72:~/temp/foldr1$ cat mytext1.txt
+cat: mytext1.txt: No such file or directory
+devi77@LAPTOP-18KCPA72:~/temp/foldr1$ echo "Hi All we are doing greatcat mytext.txt" > mytext1.txt
+devi77@LAPTOP-18KCPA72:~/temp/foldr1$ cat mytext1.txt
+Hi All we are doing greatcat mytext.txt
+devi77@LAPTOP-18KCPA72:~/temp/foldr1$ cat my*
+Helo welcome to linux session
+Hi All! we are doing greatcat mytext.txt > mytext1.txt
+
+Hi All we are doing greatcat mytext.txt
+devi77@LAPTOP-18KCPA72:~/temp/foldr1$ cat mytext.txt mytext1.txt
+Helo welcome to linux session
+Hi All we are doing greatcat mytext.txt
+devi77@LAPTOP-18KCPA72:~/temp/foldr1$ cat my* > mix.txt
+devi77@LAPTOP-18KCPA72:~/temp/foldr1$ cat mix.txt
+Helo welcome to linux session
+Hi All! we are doing greatcat mytext.txt > mytext1.txt
+
+Hi All we are doing greatcat mytext.txt
+devi77@LAPTOP-18KCPA72:~/temp/foldr1$ echo " now we are appending this line " >> mix.txt
+devi77@LAPTOP-18KCPA72:~/temp/foldr1$ cat mix.txt
+Helo welcome to linux session
+Hi All! we are doing greatcat mytext.txt > mytext1.txt
+
+Hi All we are doing greatcat mytext.txt
+ now we are appending this line
+devi77@LAPTOP-18KCPA72:~/temp/foldr1$ ls
+infoldr  mix.txt  mytext.txt  mytext1,txt  mytext1.txt
+devi77@LAPTOP-18KCPA72:~/temp/foldr1$ mv mytext.txt temp ..
+mv: cannot stat 'temp': No such file or directory
+devi77@LAPTOP-18KCPA72:~/temp/foldr1$ mv mytext.txt temp
+mv: cannot stat 'mytext.txt': No such file or directory
+devi77@LAPTOP-18KCPA72:~/temp/foldr1$ ls
+infoldr  mix.txt  mytext1,txt  mytext1.txt
+devi77@LAPTOP-18KCPA72:~/temp/foldr1$ cd ..
+devi77@LAPTOP-18KCPA72:~/temp$ ls
+abdtutor  foldr1  mytext.txt
+devi77@LAPTOP-18KCPA72:~/temp$ cat mytext.txt
+Helo welcome to linux session
+devi77@LAPTOP-18KCPA72:~/temp$ cp mytext.txt backupmytext.txt
+devi77@LAPTOP-18KCPA72:~/temp$ ls
+abdtutor  backupmytext.txt  foldr1  mytext.txt
+devi77@LAPTOP-18KCPA72:~/temp$ mv backupmytext.txt mytextbackup.txt
+devi77@LAPTOP-18KCPA72:~/temp$ ls
+abdtutor  foldr1  mytext.txt  mytextbackup.txt
+devi77@LAPTOP-18KCPA72:~/temp$ whoami
+devi77
+devi77@LAPTOP-18KCPA72:~/temp$ who
+devi77@LAPTOP-18KCPA72:~/temp$ id
+uid=1000(devi77) gid=1000(devi77) groups=1000(devi77),4(adm),20(dialout),24(cdrom),25(floppy),27(sudo),29(audio),30(dip),44(video),46(plugdev),117(netdev)
+devi77@LAPTOP-18KCPA72:~/temp$ w
+ 10:59:18 up  2:11,  0 users,  load average: 0.08, 0.13, 0.16
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+devi77@LAPTOP-18KCPA72:~/temp$ cd
+devi77@LAPTOP-18KCPA72:~$ man man
+devi77@LAPTOP-18KCPA72:~$ cd /
+devi77@LAPTOP-18KCPA72:/$ ls
+bin   dev  home  lib    lib64   lost+found  mnt  proc  run   snap  sys  usr
+boot  etc  init  lib32  libx32  media       opt  root  sbin  srv   tmp  var
+devi77@LAPTOP-18KCPA72:/$ cat etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+systemd-timesync:x:102:104:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+messagebus:x:103:106::/nonexistent:/usr/sbin/nologin
+syslog:x:104:110::/home/syslog:/usr/sbin/nologin
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+tss:x:106:111:TPM software stack,,,:/var/lib/tpm:/bin/false
+uuidd:x:107:112::/run/uuidd:/usr/sbin/nologin
+tcpdump:x:108:113::/nonexistent:/usr/sbin/nologin
+sshd:x:109:65534::/run/sshd:/usr/sbin/nologin
+landscape:x:110:115::/var/lib/landscape:/usr/sbin/nologin
+pollinate:x:111:1::/var/cache/pollinate:/bin/false
+devi77:x:1000:1000:,,,:/home/devi77:/bin/bash
+uset0:x:1001:1001::/home/uset0:/bin/sh
+user0:x:1002:1002::/home/user0:/bin/sh
+user1:x:1003:1003::/home/user1:/bin/sh
+user2:x:1004:1004::/home/user2:/bin/sh
+user3:x:1005:1005::/home/user3:/bin/sh
+varun:x:1006:1006:,,,:/home/varun:/bin/bash
+salim:x:1007:1007:,,,:/home/salim:/bin/bash
+rihan:x:1008:1008:,,,:/home/rihan:/bin/bash
+riya:x:1009:1009:,,,:/home/riya:/bin/bash
+timjag:x:1010:1010:,,,:/home/timjag:/bin/bash
+myuser:x:1011:1011:,,,:/home/myuser:/bin/bash
+dev1:x:1012:1013:,,,:/home/dev1:/bin/bash
+dev2:x:1013:1014:,,,:/home/dev2:/bin/bash
+userr1:x:1014:1015:,,,:/home/userr1:/bin/bash
+userr2:x:1015:1016:,,,:/home/userr2:/bin/bash
+catty1:x:1016:1017:,,,:/home/catty1:/bin/bash
+catty2:x:1017:1018:,,,:/home/catty2:/bin/bash
+simpletest:x:1018:1019:,,,:/home/simpletest:/bin/bash
+simpletest2:x:1019:1020:,,,:/home/simpletest2:/bin/bash
+simp:x:1020:1021:,,,:/home/simp:/bin/bash
+simp2:x:1021:1022:,,,:/home/simp2:/bin/bash
+devi:x:1022:1023:,,,:/home/devi:/bin/bash
+tasky:x:1023:1025:,,,:/home/tasky:/bin/bash
+tasky2:x:1024:1026:,,,:/home/tasky2:/bin/bash
+tasky3:x:1025:1027:,,,:/home/tasky3:/bin/bash
+devi977:x:1026:1029:,,,:/home/devi977:/bin/bash
+devi77@LAPTOP-18KCPA72:/$ cd
+devi77@LAPTOP-18KCPA72:~$ sudo adduser friend
+[sudo] password for devi77:
+Adding user `friend' ...
+Adding new group `friend' (1030) ...
+Adding new user `friend' (1027) with group `friend' ...
+Creating home directory `/home/friend' ...
+Copying files from `/etc/skel' ...
+New password:
+Retype new password:
+passwd: password updated successfully
+Changing the user information for friend
+Enter the new value, or press ENTER for the default
+        Full Name []:
+        Room Number []:
+        Work Phone []:
+        Home Phone []:
+        Other []:
+Is the information correct? [Y/n] y
+devi77@LAPTOP-18KCPA72:~$ su - friend
+Password:
+Welcome to Ubuntu 20.04.3 LTS (GNU/Linux 5.10.16.3-microsoft-standard-WSL2 x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Thu Jan 20 11:03:36 IST 2022
+
+  System load:  0.52               Processes:             10
+  Usage of /:   0.8% of 250.98GB   Users logged in:       0
+  Memory usage: 43%                IPv4 address for eth0: 172.25.101.152
+  Swap usage:   0%
+
+0 updates can be applied immediately.
+
+
+The list of available updates is more than a week old.
+To check for new updates run: sudo apt update
+
+
+This message is shown once a day. To disable it please create the
+/home/friend/.hushlogin file.
+friend@LAPTOP-18KCPA72:~$ pwd
+/home/friend
+friend@LAPTOP-18KCPA72:~$ cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+systemd-timesync:x:102:104:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+messagebus:x:103:106::/nonexistent:/usr/sbin/nologin
+syslog:x:104:110::/home/syslog:/usr/sbin/nologin
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+tss:x:106:111:TPM software stack,,,:/var/lib/tpm:/bin/false
+uuidd:x:107:112::/run/uuidd:/usr/sbin/nologin
+tcpdump:x:108:113::/nonexistent:/usr/sbin/nologin
+sshd:x:109:65534::/run/sshd:/usr/sbin/nologin
+landscape:x:110:115::/var/lib/landscape:/usr/sbin/nologin
+pollinate:x:111:1::/var/cache/pollinate:/bin/false
+devi77:x:1000:1000:,,,:/home/devi77:/bin/bash
+uset0:x:1001:1001::/home/uset0:/bin/sh
+user0:x:1002:1002::/home/user0:/bin/sh
+user1:x:1003:1003::/home/user1:/bin/sh
+user2:x:1004:1004::/home/user2:/bin/sh
+user3:x:1005:1005::/home/user3:/bin/sh
+varun:x:1006:1006:,,,:/home/varun:/bin/bash
+salim:x:1007:1007:,,,:/home/salim:/bin/bash
+rihan:x:1008:1008:,,,:/home/rihan:/bin/bash
+riya:x:1009:1009:,,,:/home/riya:/bin/bash
+timjag:x:1010:1010:,,,:/home/timjag:/bin/bash
+myuser:x:1011:1011:,,,:/home/myuser:/bin/bash
+dev1:x:1012:1013:,,,:/home/dev1:/bin/bash
+dev2:x:1013:1014:,,,:/home/dev2:/bin/bash
+userr1:x:1014:1015:,,,:/home/userr1:/bin/bash
+userr2:x:1015:1016:,,,:/home/userr2:/bin/bash
+catty1:x:1016:1017:,,,:/home/catty1:/bin/bash
+catty2:x:1017:1018:,,,:/home/catty2:/bin/bash
+simpletest:x:1018:1019:,,,:/home/simpletest:/bin/bash
+simpletest2:x:1019:1020:,,,:/home/simpletest2:/bin/bash
+simp:x:1020:1021:,,,:/home/simp:/bin/bash
+simp2:x:1021:1022:,,,:/home/simp2:/bin/bash
+devi:x:1022:1023:,,,:/home/devi:/bin/bash
+tasky:x:1023:1025:,,,:/home/tasky:/bin/bash
+tasky2:x:1024:1026:,,,:/home/tasky2:/bin/bash
+tasky3:x:1025:1027:,,,:/home/tasky3:/bin/bash
+devi977:x:1026:1029:,,,:/home/devi977:/bin/bash
+friend:x:1027:1030:,,,:/home/friend:/bin/bash
+friend@LAPTOP-18KCPA72:~$ su - devi77
+Password:
+su: Authentication failure
+friend@LAPTOP-18KCPA72:~$ su - devi77
+Password:
+su: Authentication failure
+friend@LAPTOP-18KCPA72:~$ su - devi77
+Password:
+su: Authentication failure
+friend@LAPTOP-18KCPA72:~$ su - devi77
+Password:
+total 312
+drwxr-xr-x  5 devi77 devi77  4096 Jan  5 17:10 Hashmum
+drwxr-xr-x  2 devi77 devi77  4096 Dec 28 17:58 ZING
+drwxr-xr-x  3 devi77 devi77  4096 Dec 28 17:35 Zing
+drwxrwxr-x  3 devi77 devi77  4096 Dec 17 15:22 abcimplex
+drwxr-xr-x  2 devi77 devi77  4096 Dec 17 12:32 abclmpex
+-rwxr-xr-x  1 devi77 devi77   167 Dec 13 11:55 animal.sh
+-rwxrwxr--  1 devi77 devi77    94 Dec 20 15:16 args.sh
+-rwxr-xr-x  1 devi77 devi77   152 Dec 13 14:59 bestfriends.sh
+-rw-r--r--  1 devi77 devi77   115 Dec 13 15:02 besties.sh
+drwxrwxr-x  3 devi77 devi77  4096 Dec 20 16:43 bootcamp
+-rw-r--r--  1 devi77 devi77    85 Dec 15 17:15 creat.yml
+-rw-r--r--  1 devi77 devi77    98 Jan 10 14:57 daemon.json
+drwxr-xr-x  2 devi77 devi77  4096 Dec 10 10:12 dear
+-rwxr-xr-x  1 devi77 devi77    59 Dec 10 17:24 dear.sh
+-rwxr-xr-x  1 devi77 devi77    75 Dec 13 13:01 details.sh
+-rwxr-xr-x  1 devi77 devi77   195 Dec 13 13:21 detailss.sh
+drwxr-xr-x 10 devi77 devi77  4096 Dec 17 14:22 devi
+-rwxrwxr--  1 devi77 devi77    35 Jan  8 08:46 devi.sh
+-rw-r--r--  1 devi77 devi77    82 Jan  8 10:02 devi_orchestrate.yml
+drwxr-xr-x  5 devi77 devi77  4096 Jan  8 13:49 devi_playbook
+drwxr-xr-x 10 devi77 devi77  4096 Dec 15 17:40 devii
+-rw-r--r--  1 devi77 devi77    94 Dec 16 10:39 devii.yml
+-rw-r--r--  1 devi77 devi77    85 Dec 16 11:11 deviii_orchestrate.yml
+-rw-r--r--  1 devi77 devi77   134 Dec 15 17:26 employee.yml
+-rw-rw-r--  1 devi77 devi77    16 Jan  7 17:17 enjoy.txt
+-rwxr-xr-x  1 devi77 devi77   186 Jan  8 08:48 eveodd.sh
+-rw-r--r--  1 devi77 devi77   101 Dec 15 17:29 extention
+-rwxr-xr-x  1 devi77 devi77   252 Jan  8 08:49 favfood.sh
+-rwxr-xr-x  1 devi77 devi77   231 Dec 13 14:46 favfruit.sh
+-rwxr-xr-x  1 devi77 devi77   229 Dec 16 18:00 fib.sh
+-rwxr-xr-x  1 devi77 devi77   196 Dec 16 17:54 fibonacci.sh
+-rwxr-xr-x  1 devi77 devi77   350 Dec 13 10:42 friendscript.sh
+-rwxr-xr-x  1 devi77 devi77   203 Dec 13 17:50 func.sh
+-rwxr-xr-x  1 devi77 devi77   153 Dec 13 17:55 funcc.sh
+-rwxr-xr-x  1 devi77 devi77    88 Dec 13 17:22 function.sh
+-rwxrwxr-x  1 devi77 devi77   196 Dec 13 17:36 functions.sh
+-rwxr-xr-x  1 devi77 devi77    20 Dec 10 17:18 funny.txt
+-rw-r--r--  1 devi77 devi77   115 Dec 13 15:54 gg.sh
+-rw-r--r--  1 devi77 devi77   126 Dec 13 15:56 ggg.sh
+-rw-r--r--  1 devi77 devi77     6 Dec 13 10:24 haiscript.sh
+-rwxrwxr--  1 devi77 devi77   149 Jan  8 08:51 ifelse.sh
+-rwxr-xr-x  1 devi77 devi77   214 Dec 13 13:08 info.sh
+-rwxrwxr--  1 devi77 devi77   263 Dec 13 13:41 inform.sh
+-rwxrwxr-x  1 devi77 devi77   223 Dec 13 13:31 information.sh
+drwxrwxr-x  2 devi77 devi77  4096 Dec 28 17:21 initialZing
+drwxr-xr-x  2 devi77 devi77  4096 Dec 17 14:07 initialgalaxy
+-rwxrwxr--  1 devi77 devi77   105 Dec 20 15:22 input.sh
+-rw-r--r--  1 devi77 devi77    90 Dec 16 12:15 main.yml
+-rw-r--r--  1 devi77 devi77   104 Dec 17 09:38 message.yml
+-rw-r--r--  1 devi77 devi77   114 Dec 13 15:49 mul.sh
+-rw-r--r--  1 devi77 devi77   132 Dec 13 16:00 mull.sh
+-rwxr-xr-x  1 devi77 devi77   120 Dec 13 15:39 multi.sh
+-rwxr-xr-x  1 devi77 devi77   167 Dec 13 14:17 multiple.sh
+-rwxr-xrwx  1 devi77 devi77    37 Dec 10 10:23 myinfo.txt
+-rwxr-xr-x  1 devi77 devi77    82 Dec 13 14:51 odd.sh
+-rwxr-xr-x  1 devi77 devi77    79 Dec 13 15:10 oddd.sh
+-rwxr-xr-x  1 devi77 devi77   134 Jan  8 08:57 odddnum.sh
+-rwxr-xr-x  1 devi77 devi77   142 Jan  8 08:56 oddnum.sh
+-rw-r--r--  1 devi77 devi77   747 Jan 20 10:42 outputfile.txt
+-rw-r--r--  1 devi77 devi77   139 Jan  6 17:11 pod.yaml
+-rwxr-xr-x  1 devi77 devi77   220 Dec 17 09:44 prime.sh
+-rwxr-xr-x  1 devi77 devi77   155 Dec 17 09:51 primenumbers.sh
+-rw-r--r--  1 devi77 devi77 12389 Jan 10 16:10 prometheus.yml
+-rwxr-xr-x  1 devi77 devi77    85 Dec 13 15:22 ss.sh
+-rw-r--r--  1 devi77 devi77   319 Jan  8 10:05 start-tomcat
+drwxr-xr-x  4 devi77 devi77  4096 Jan 20 10:58 temp
+drwxrwxr-x  2 devi77 devi77  4096 Dec 20 15:45 tempy
+-rw-r--r--  1 devi77 devi77   305 Dec 16 11:20 tomcat
+-rw-r--r--  1 devi77 devi77    23 Dec 28 16:46 ubuntu.txt
+drwxr-xr-x  2 devi77 devi77  4096 Dec 17 12:35 user1
+drwxr-xr-x  2 devi77 devi77  4096 Dec 17 12:36 user2
+drwxr-xr-x  2 devi77 devi77  4096 Dec 17 12:36 user3
+drwxr-xr-x  2 devi77 devi77  4096 Dec 17 12:36 user4
+-rw-r--r--  1 devi77 devi77    54 Dec 13 14:33 while.sh
+drwxr-xr-x  2 devi77 devi77  4096 Dec 28 16:47 zing
+.                          Hashmum         devi                    func.sh         message.yml      start-tomcat
+..                         ZING            devi.sh                 funcc.sh        mul.sh           temp
+.ansible                   Zing            devi_orchestrate.yml    function.sh     mull.sh          tempy
+.bash_aliases              abcimplex       devi_playbook           functions.sh    multi.sh         tomcat
+.bash_history              abclmpex        devii                   funny.txt       multiple.sh      ubuntu.txt
+.bash_logout               animal.sh       devii.yml               gg.sh           myinfo.txt       user1
+.bashrc                    args.sh         deviii_orchestrate.yml  ggg.sh          odd.sh           user2
+.config                    bestfriends.sh  employee.yml            haiscript.sh    oddd.sh          user3
+.daemon.json.swn           besties.sh      enjoy.txt               ifelse.sh       odddnum.sh       user4
+.daemon.json.swo           bootcamp        eveodd.sh               info.sh         oddnum.sh        while.sh
+.landscape                 creat.yml       extention               inform.sh       outputfile.txt   zing
+.local                     daemon.json     favfood.sh              information.sh  pod.yaml
+.motd_shown                dear            favfruit.sh             initialZing     prime.sh
+.profile                   dear.sh         fib.sh                  initialgalaxy   primenumbers.sh
+.sudo_as_admin_successful  details.sh      fibonacci.sh            input.sh        prometheus.yml
+.viminfo                   detailss.sh     friendscript.sh         main.yml        ss.sh
+alias ll='ls -alF'
+-bash: alias: =: not found
+-bash: alias: ls-l: not found
+alias la='ls -A'
+-bash: alias: =: not found
+-bash: alias: la -a: not found
+-bash: alias: lh: not found
+-bash: alias: =: not found
+-bash: alias: ls -lh: not found
+hi: command not found
+
+Command 'how' not found, did you mean:
+
+  command 'sow' from deb ruby-hoe (3.21.0+dfsg1-1)
+  command 'hop' from deb hopenpgp-tools (0.22-2build2)
+  command 'hot' from deb hopenpgp-tools (0.22-2build2)
+  command 'hoz' from deb hoz (1.65-3)
+  command 'cow' from deb fl-cow (0.6-4.2)
+  command 'show' from deb mailutils-mh (1:3.7-2.1)
+  command 'show' from deb mmh (0.4-2)
+  command 'show' from deb nmh (1.7.1-6)
+
+Try: sudo apt install <deb name>
+
+devi77@LAPTOP-18KCPA72:~$ cat /etc/group
+root:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,devi77
+tty:x:5:syslog
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:devi77
+fax:x:21:
+voice:x:22:
+cdrom:x:24:devi77
+floppy:x:25:devi77
+tape:x:26:
+sudo:x:27:devi77,myuser,userr1,devi
+audio:x:29:devi77
+dip:x:30:devi77
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+gnats:x:41:
+shadow:x:42:
+utmp:x:43:
+video:x:44:devi77
+sasl:x:45:
+plugdev:x:46:devi77
+staff:x:50:
+games:x:60:
+users:x:100:
+nogroup:x:65534:
+systemd-journal:x:101:
+systemd-network:x:102:
+systemd-resolve:x:103:
+systemd-timesync:x:104:
+crontab:x:105:
+messagebus:x:106:
+input:x:107:
+kvm:x:108:
+render:x:109:
+syslog:x:110:
+tss:x:111:
+uuidd:x:112:
+tcpdump:x:113:
+ssh:x:114:
+landscape:x:115:
+admin:x:116:
+netdev:x:117:devi77
+lxd:x:118:
+devi77:x:1000:
+uset0:x:1001:
+user0:x:1002:
+user1:x:1003:
+user2:x:1004:
+user3:x:1005:
+varun:x:1006:
+salim:x:1007:
+rihan:x:1008:
+riya:x:1009:
+timjag:x:1010:
+myuser:x:1011:
+devops:x:1012:
+dev1:x:1013:
+dev2:x:1014:
+userr1:x:1015:
+userr2:x:1016:
+catty1:x:1017:
+catty2:x:1018:
+simpletest:x:1019:
+simpletest2:x:1020:
+simp:x:1021:
+simp2:x:1022:
+devi:x:1023:
+kavi:x:1024:
+tasky:x:1025:
+tasky2:x:1026:
+tasky3:x:1027:
+devop:x:1028:
+devi977:x:1029:
+friend:x:1030:
+devi77@LAPTOP-18KCPA72:~$ groupadd
+Usage: groupadd [options] GROUP
+
+Options:
+  -f, --force                   exit successfully if the group already exists,
+                                and cancel -g if the GID is already used
+  -g, --gid GID                 use GID for the new group
+  -h, --help                    display this help message and exit
+  -K, --key KEY=VALUE           override /etc/login.defs defaults
+  -o, --non-unique              allow to create groups with duplicate
+                                (non-unique) GID
+  -p, --password PASSWORD       use this encrypted password for the new group
+  -r, --system                  create a system account
+  -R, --root CHROOT_DIR         directory to chroot into
+  -P, --prefix PREFIX_DIR       directory prefix
+      --extrausers              Use the extra users database
+
+devi77@LAPTOP-18KCPA72:~$ sudo groupadd devisree
+devi77@LAPTOP-18KCPA72:~$ cat /etc/group
+root:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,devi77
+tty:x:5:syslog
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:devi77
+fax:x:21:
+voice:x:22:
+cdrom:x:24:devi77
+floppy:x:25:devi77
+tape:x:26:
+sudo:x:27:devi77,myuser,userr1,devi
+audio:x:29:devi77
+dip:x:30:devi77
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+gnats:x:41:
+shadow:x:42:
+utmp:x:43:
+video:x:44:devi77
+sasl:x:45:
+plugdev:x:46:devi77
+staff:x:50:
+games:x:60:
+users:x:100:
+nogroup:x:65534:
+systemd-journal:x:101:
+systemd-network:x:102:
+systemd-resolve:x:103:
+systemd-timesync:x:104:
+crontab:x:105:
+messagebus:x:106:
+input:x:107:
+kvm:x:108:
+render:x:109:
+syslog:x:110:
+tss:x:111:
+uuidd:x:112:
+tcpdump:x:113:
+ssh:x:114:
+landscape:x:115:
+admin:x:116:
+netdev:x:117:devi77
+lxd:x:118:
+devi77:x:1000:
+uset0:x:1001:
+user0:x:1002:
+user1:x:1003:
+user2:x:1004:
+user3:x:1005:
+varun:x:1006:
+salim:x:1007:
+rihan:x:1008:
+riya:x:1009:
+timjag:x:1010:
+myuser:x:1011:
+devops:x:1012:
+dev1:x:1013:
+dev2:x:1014:
+userr1:x:1015:
+userr2:x:1016:
+catty1:x:1017:
+catty2:x:1018:
+simpletest:x:1019:
+simpletest2:x:1020:
+simp:x:1021:
+simp2:x:1022:
+devi:x:1023:
+kavi:x:1024:
+tasky:x:1025:
+tasky2:x:1026:
+tasky3:x:1027:
+devop:x:1028:
+devi977:x:1029:
+friend:x:1030:
+devisree:x:1031:
+devi77@LAPTOP-18KCPA72:~$ ls
+Hashmum         dear.sh                 extention        haiscript.sh    multiple.sh      temp
+ZING            details.sh              favfood.sh       ifelse.sh       myinfo.txt       tempy
+Zing            detailss.sh             favfruit.sh      info.sh         odd.sh           tomcat
+abcimplex       devi                    fib.sh           inform.sh       oddd.sh          ubuntu.txt
+abclmpex        devi.sh                 fibonacci.sh     information.sh  odddnum.sh       user1
+animal.sh       devi_orchestrate.yml    friendscript.sh  initialZing     oddnum.sh        user2
+args.sh         devi_playbook           func.sh          initialgalaxy   outputfile.txt   user3
+bestfriends.sh  devii                   funcc.sh         input.sh        pod.yaml         user4
+besties.sh      devii.yml               function.sh      main.yml        prime.sh         while.sh
+bootcamp        deviii_orchestrate.yml  functions.sh     message.yml     primenumbers.sh  zing
+creat.yml       employee.yml            funny.txt        mul.sh          prometheus.yml
+daemon.json     enjoy.txt               gg.sh            mull.sh         ss.sh
+dear            eveodd.sh               ggg.sh           multi.sh        start-tomcat
+devi77@LAPTOP-18KCPA72:~$ ls -il
+total 312
+40737 drwxr-xr-x  5 devi77 devi77  4096 Jan  5 17:10 Hashmum
+97306 drwxr-xr-x  2 devi77 devi77  4096 Dec 28 17:58 ZING
+97286 drwxr-xr-x  3 devi77 devi77  4096 Dec 28 17:35 Zing
+97180 drwxrwxr-x  3 devi77 devi77  4096 Dec 17 15:22 abcimplex
+37431 drwxr-xr-x  2 devi77 devi77  4096 Dec 17 12:32 abclmpex
+40761 -rwxr-xr-x  1 devi77 devi77   167 Dec 13 11:55 animal.sh
+97213 -rwxrwxr--  1 devi77 devi77    94 Dec 20 15:16 args.sh
+83498 -rwxr-xr-x  1 devi77 devi77   152 Dec 13 14:59 bestfriends.sh
+83511 -rw-r--r--  1 devi77 devi77   115 Dec 13 15:02 besties.sh
+97200 drwxrwxr-x  3 devi77 devi77  4096 Dec 20 16:43 bootcamp
+96807 -rw-r--r--  1 devi77 devi77    85 Dec 15 17:15 creat.yml
+ 3451 -rw-r--r--  1 devi77 devi77    98 Jan 10 14:57 daemon.json
+37428 drwxr-xr-x  2 devi77 devi77  4096 Dec 10 10:12 dear
+37443 -rwxr-xr-x  1 devi77 devi77    59 Dec 10 17:24 dear.sh
+40900 -rwxr-xr-x  1 devi77 devi77    75 Dec 13 13:01 details.sh
+40905 -rwxr-xr-x  1 devi77 devi77   195 Dec 13 13:21 detailss.sh
+96812 drwxr-xr-x 10 devi77 devi77  4096 Dec 17 14:22 devi
+  407 -rwxrwxr--  1 devi77 devi77    35 Jan  8 08:46 devi.sh
+97130 -rw-r--r--  1 devi77 devi77    82 Jan  8 10:02 devi_orchestrate.yml
+97030 drwxr-xr-x  5 devi77 devi77  4096 Jan  8 13:49 devi_playbook
+24994 drwxr-xr-x 10 devi77 devi77  4096 Dec 15 17:40 devii
+96857 -rw-r--r--  1 devi77 devi77    94 Dec 16 10:39 devii.yml
+97053 -rw-r--r--  1 devi77 devi77    85 Dec 16 11:11 deviii_orchestrate.yml
+96809 -rw-r--r--  1 devi77 devi77   134 Dec 15 17:26 employee.yml
+97460 -rw-rw-r--  1 devi77 devi77    16 Jan  7 17:17 enjoy.txt
+40933 -rwxr-xr-x  1 devi77 devi77   186 Jan  8 08:48 eveodd.sh
+96806 -rw-r--r--  1 devi77 devi77   101 Dec 15 17:29 extention
+40965 -rwxr-xr-x  1 devi77 devi77   252 Jan  8 08:49 favfood.sh
+83496 -rwxr-xr-x  1 devi77 devi77   231 Dec 13 14:46 favfruit.sh
+97141 -rwxr-xr-x  1 devi77 devi77   229 Dec 16 18:00 fib.sh
+97140 -rwxr-xr-x  1 devi77 devi77   196 Dec 16 17:54 fibonacci.sh
+40755 -rwxr-xr-x  1 devi77 devi77   350 Dec 13 10:42 friendscript.sh
+96804 -rwxr-xr-x  1 devi77 devi77   203 Dec 13 17:50 func.sh
+96805 -rwxr-xr-x  1 devi77 devi77   153 Dec 13 17:55 funcc.sh
+96802 -rwxr-xr-x  1 devi77 devi77    88 Dec 13 17:22 function.sh
+96803 -rwxrwxr-x  1 devi77 devi77   196 Dec 13 17:36 functions.sh
+37427 -rwxr-xr-x  1 devi77 devi77    20 Dec 10 17:18 funny.txt
+83518 -rw-r--r--  1 devi77 devi77   115 Dec 13 15:54 gg.sh
+96798 -rw-r--r--  1 devi77 devi77   126 Dec 13 15:56 ggg.sh
+40732 -rw-r--r--  1 devi77 devi77     6 Dec 13 10:24 haiscript.sh
+97215 -rwxrwxr--  1 devi77 devi77   149 Jan  8 08:51 ifelse.sh
+40901 -rwxr-xr-x  1 devi77 devi77   214 Dec 13 13:08 info.sh
+40929 -rwxrwxr--  1 devi77 devi77   263 Dec 13 13:41 inform.sh
+40928 -rwxrwxr-x  1 devi77 devi77   223 Dec 13 13:31 information.sh
+97281 drwxrwxr-x  2 devi77 devi77  4096 Dec 28 17:21 initialZing
+97149 drwxr-xr-x  2 devi77 devi77  4096 Dec 17 14:07 initialgalaxy
+97214 -rwxrwxr--  1 devi77 devi77   105 Dec 20 15:22 input.sh
+96901 -rw-r--r--  1 devi77 devi77    90 Dec 16 12:15 main.yml
+97142 -rw-r--r--  1 devi77 devi77   104 Dec 17 09:38 message.yml
+83517 -rw-r--r--  1 devi77 devi77   114 Dec 13 15:49 mul.sh
+96799 -rw-r--r--  1 devi77 devi77   132 Dec 13 16:00 mull.sh
+83516 -rwxr-xr-x  1 devi77 devi77   120 Dec 13 15:39 multi.sh
+40955 -rwxr-xr-x  1 devi77 devi77   167 Dec 13 14:17 multiple.sh
+37430 -rwxr-xrwx  1 devi77 devi77    37 Dec 10 10:23 myinfo.txt
+83497 -rwxr-xr-x  1 devi77 devi77    82 Dec 13 14:51 odd.sh
+83512 -rwxr-xr-x  1 devi77 devi77    79 Dec 13 15:10 oddd.sh
+83515 -rwxr-xr-x  1 devi77 devi77   134 Jan  8 08:57 odddnum.sh
+83513 -rwxr-xr-x  1 devi77 devi77   142 Jan  8 08:56 oddnum.sh
+ 3732 -rw-r--r--  1 devi77 devi77   747 Jan 20 10:42 outputfile.txt
+97372 -rw-r--r--  1 devi77 devi77   139 Jan  6 17:11 pod.yaml
+97143 -rwxr-xr-x  1 devi77 devi77   220 Dec 17 09:44 prime.sh
+97144 -rwxr-xr-x  1 devi77 devi77   155 Dec 17 09:51 primenumbers.sh
+ 3452 -rw-r--r--  1 devi77 devi77 12389 Jan 10 16:10 prometheus.yml
+83514 -rwxr-xr-x  1 devi77 devi77    85 Dec 13 15:22 ss.sh
+97056 -rw-r--r--  1 devi77 devi77   319 Jan  8 10:05 start-tomcat
+40778 drwxr-xr-x  4 devi77 devi77  4096 Jan 20 10:58 temp
+97226 drwxrwxr-x  2 devi77 devi77  4096 Dec 20 15:45 tempy
+97055 -rw-r--r--  1 devi77 devi77   305 Dec 16 11:20 tomcat
+97232 -rw-r--r--  1 devi77 devi77    23 Dec 28 16:46 ubuntu.txt
+97145 drwxr-xr-x  2 devi77 devi77  4096 Dec 17 12:35 user1
+97146 drwxr-xr-x  2 devi77 devi77  4096 Dec 17 12:36 user2
+97147 drwxr-xr-x  2 devi77 devi77  4096 Dec 17 12:36 user3
+97148 drwxr-xr-x  2 devi77 devi77  4096 Dec 17 12:36 user4
+40957 -rw-r--r--  1 devi77 devi77    54 Dec 13 14:33 while.sh
+97234 drwxr-xr-x  2 devi77 devi77  4096 Dec 28 16:47 zing
+devi77@LAPTOP-18KCPA72:~$ pwd
+/home/devi77
+devi77@LAPTOP-18KCPA72:~$ ls -a
+.                          Hashmum         devi                    func.sh         message.yml      start-tomcat
+..                         ZING            devi.sh                 funcc.sh        mul.sh           temp
+.ansible                   Zing            devi_orchestrate.yml    function.sh     mull.sh          tempy
+.bash_aliases              abcimplex       devi_playbook           functions.sh    multi.sh         tomcat
+.bash_history              abclmpex        devii                   funny.txt       multiple.sh      ubuntu.txt
+.bash_logout               animal.sh       devii.yml               gg.sh           myinfo.txt       user1
+.bashrc                    args.sh         deviii_orchestrate.yml  ggg.sh          odd.sh           user2
+.config                    bestfriends.sh  employee.yml            haiscript.sh    oddd.sh          user3
+.daemon.json.swn           besties.sh      enjoy.txt               ifelse.sh       odddnum.sh       user4
+.daemon.json.swo           bootcamp        eveodd.sh               info.sh         oddnum.sh        while.sh
+.landscape                 creat.yml       extention               inform.sh       outputfile.txt   zing
+.local                     daemon.json     favfood.sh              information.sh  pod.yaml
+.motd_shown                dear            favfruit.sh             initialZing     prime.sh
+.profile                   dear.sh         fib.sh                  initialgalaxy   primenumbers.sh
+.sudo_as_admin_successful  details.sh      fibonacci.sh            input.sh        prometheus.yml
+.viminfo                   detailss.sh     friendscript.sh         main.yml        ss.sh
+devi77@LAPTOP-18KCPA72:~$ ls -l
+total 312
+drwxr-xr-x  5 devi77 devi77  4096 Jan  5 17:10 Hashmum
+drwxr-xr-x  2 devi77 devi77  4096 Dec 28 17:58 ZING
+drwxr-xr-x  3 devi77 devi77  4096 Dec 28 17:35 Zing
+drwxrwxr-x  3 devi77 devi77  4096 Dec 17 15:22 abcimplex
+drwxr-xr-x  2 devi77 devi77  4096 Dec 17 12:32 abclmpex
+-rwxr-xr-x  1 devi77 devi77   167 Dec 13 11:55 animal.sh
+-rwxrwxr--  1 devi77 devi77    94 Dec 20 15:16 args.sh
+-rwxr-xr-x  1 devi77 devi77   152 Dec 13 14:59 bestfriends.sh
+-rw-r--r--  1 devi77 devi77   115 Dec 13 15:02 besties.sh
+drwxrwxr-x  3 devi77 devi77  4096 Dec 20 16:43 bootcamp
+-rw-r--r--  1 devi77 devi77    85 Dec 15 17:15 creat.yml
+-rw-r--r--  1 devi77 devi77    98 Jan 10 14:57 daemon.json
+drwxr-xr-x  2 devi77 devi77  4096 Dec 10 10:12 dear
+-rwxr-xr-x  1 devi77 devi77    59 Dec 10 17:24 dear.sh
+-rwxr-xr-x  1 devi77 devi77    75 Dec 13 13:01 details.sh
+-rwxr-xr-x  1 devi77 devi77   195 Dec 13 13:21 detailss.sh
+drwxr-xr-x 10 devi77 devi77  4096 Dec 17 14:22 devi
+-rwxrwxr--  1 devi77 devi77    35 Jan  8 08:46 devi.sh
+-rw-r--r--  1 devi77 devi77    82 Jan  8 10:02 devi_orchestrate.yml
+drwxr-xr-x  5 devi77 devi77  4096 Jan  8 13:49 devi_playbook
+drwxr-xr-x 10 devi77 devi77  4096 Dec 15 17:40 devii
+-rw-r--r--  1 devi77 devi77    94 Dec 16 10:39 devii.yml
+-rw-r--r--  1 devi77 devi77    85 Dec 16 11:11 deviii_orchestrate.yml
+-rw-r--r--  1 devi77 devi77   134 Dec 15 17:26 employee.yml
+-rw-rw-r--  1 devi77 devi77    16 Jan  7 17:17 enjoy.txt
+-rwxr-xr-x  1 devi77 devi77   186 Jan  8 08:48 eveodd.sh
+-rw-r--r--  1 devi77 devi77   101 Dec 15 17:29 extention
+-rwxr-xr-x  1 devi77 devi77   252 Jan  8 08:49 favfood.sh
+-rwxr-xr-x  1 devi77 devi77   231 Dec 13 14:46 favfruit.sh
+-rwxr-xr-x  1 devi77 devi77   229 Dec 16 18:00 fib.sh
+-rwxr-xr-x  1 devi77 devi77   196 Dec 16 17:54 fibonacci.sh
+-rwxr-xr-x  1 devi77 devi77   350 Dec 13 10:42 friendscript.sh
+-rwxr-xr-x  1 devi77 devi77   203 Dec 13 17:50 func.sh
+-rwxr-xr-x  1 devi77 devi77   153 Dec 13 17:55 funcc.sh
+-rwxr-xr-x  1 devi77 devi77    88 Dec 13 17:22 function.sh
+-rwxrwxr-x  1 devi77 devi77   196 Dec 13 17:36 functions.sh
+-rwxr-xr-x  1 devi77 devi77    20 Dec 10 17:18 funny.txt
+-rw-r--r--  1 devi77 devi77   115 Dec 13 15:54 gg.sh
+-rw-r--r--  1 devi77 devi77   126 Dec 13 15:56 ggg.sh
+-rw-r--r--  1 devi77 devi77     6 Dec 13 10:24 haiscript.sh
+-rwxrwxr--  1 devi77 devi77   149 Jan  8 08:51 ifelse.sh
+-rwxr-xr-x  1 devi77 devi77   214 Dec 13 13:08 info.sh
+-rwxrwxr--  1 devi77 devi77   263 Dec 13 13:41 inform.sh
+-rwxrwxr-x  1 devi77 devi77   223 Dec 13 13:31 information.sh
+drwxrwxr-x  2 devi77 devi77  4096 Dec 28 17:21 initialZing
+drwxr-xr-x  2 devi77 devi77  4096 Dec 17 14:07 initialgalaxy
+-rwxrwxr--  1 devi77 devi77   105 Dec 20 15:22 input.sh
+-rw-r--r--  1 devi77 devi77    90 Dec 16 12:15 main.yml
+-rw-r--r--  1 devi77 devi77   104 Dec 17 09:38 message.yml
+-rw-r--r--  1 devi77 devi77   114 Dec 13 15:49 mul.sh
+-rw-r--r--  1 devi77 devi77   132 Dec 13 16:00 mull.sh
+-rwxr-xr-x  1 devi77 devi77   120 Dec 13 15:39 multi.sh
+-rwxr-xr-x  1 devi77 devi77   167 Dec 13 14:17 multiple.sh
+-rwxr-xrwx  1 devi77 devi77    37 Dec 10 10:23 myinfo.txt
+-rwxr-xr-x  1 devi77 devi77    82 Dec 13 14:51 odd.sh
+-rwxr-xr-x  1 devi77 devi77    79 Dec 13 15:10 oddd.sh
+-rwxr-xr-x  1 devi77 devi77   134 Jan  8 08:57 odddnum.sh
+-rwxr-xr-x  1 devi77 devi77   142 Jan  8 08:56 oddnum.sh
+-rw-r--r--  1 devi77 devi77   747 Jan 20 10:42 outputfile.txt
+-rw-r--r--  1 devi77 devi77   139 Jan  6 17:11 pod.yaml
+-rwxr-xr-x  1 devi77 devi77   220 Dec 17 09:44 prime.sh
+-rwxr-xr-x  1 devi77 devi77   155 Dec 17 09:51 primenumbers.sh
+-rw-r--r--  1 devi77 devi77 12389 Jan 10 16:10 prometheus.yml
+-rwxr-xr-x  1 devi77 devi77    85 Dec 13 15:22 ss.sh
+-rw-r--r--  1 devi77 devi77   319 Jan  8 10:05 start-tomcat
+drwxr-xr-x  4 devi77 devi77  4096 Jan 20 10:58 temp
+drwxrwxr-x  2 devi77 devi77  4096 Dec 20 15:45 tempy
+-rw-r--r--  1 devi77 devi77   305 Dec 16 11:20 tomcat
+-rw-r--r--  1 devi77 devi77    23 Dec 28 16:46 ubuntu.txt
+drwxr-xr-x  2 devi77 devi77  4096 Dec 17 12:35 user1
+drwxr-xr-x  2 devi77 devi77  4096 Dec 17 12:36 user2
+drwxr-xr-x  2 devi77 devi77  4096 Dec 17 12:36 user3
+drwxr-xr-x  2 devi77 devi77  4096 Dec 17 12:36 user4
+-rw-r--r--  1 devi77 devi77    54 Dec 13 14:33 while.sh
+drwxr-xr-x  2 devi77 devi77  4096 Dec 28 16:47 zing
+devi77@LAPTOP-18KCPA72:~$ chmod o-w enjoy.txt
+devi77@LAPTOP-18KCPA72:~$ ls -lh enjoy.txt
+-rw-rw-r-- 1 devi77 devi77 16 Jan  7 17:17 enjoy.txt
+devi77@LAPTOP-18KCPA72:~$ touch myemptfile
+devi77@LAPTOP-18KCPA72:~$ cat myemptfile
+devi77@LAPTOP-18KCPA72:~$ ls -alh myemptfile
+-rw-rw-r-- 1 devi77 devi77 0 Jan 20 11:13 myemptfile
+devi77@LAPTOP-18KCPA72:~$ nano fsam.txt
+devi77@LAPTOP-18KCPA72:~$ cat fsam.txt
+here i am creat my new file by using touch command
+my file name is fsam.txt
+devi77@LAPTOP-18KCPA72:~$ rm --fsam.txt
+rm: unrecognized option '--fsam.txt'
+Try 'rm --help' for more information.
+devi77@LAPTOP-18KCPA72:~$ rm -- fsam.txt
+devi77@LAPTOP-18KCPA72:~$ ls
+Hashmum         dear.sh                 extention        haiscript.sh    multiple.sh      start-tomcat
+ZING            details.sh              favfood.sh       ifelse.sh       myemptfile       temp
+Zing            detailss.sh             favfruit.sh      info.sh         myinfo.txt       tempy
+abcimplex       devi                    fib.sh           inform.sh       odd.sh           tomcat
+abclmpex        devi.sh                 fibonacci.sh     information.sh  oddd.sh          ubuntu.txt
+animal.sh       devi_orchestrate.yml    friendscript.sh  initialZing     odddnum.sh       user1
+args.sh         devi_playbook           func.sh          initialgalaxy   oddnum.sh        user2
+bestfriends.sh  devii                   funcc.sh         input.sh        outputfile.txt   user3
+besties.sh      devii.yml               function.sh      main.yml        pod.yaml         user4
+bootcamp        deviii_orchestrate.yml  functions.sh     message.yml     prime.sh         while.sh
+creat.yml       employee.yml            funny.txt        mul.sh          primenumbers.sh  zing
+daemon.json     enjoy.txt               gg.sh            mull.sh         prometheus.yml
+dear            eveodd.sh               ggg.sh           multi.sh        ss.sh
+devi77@LAPTOP-18KCPA72:~$ find . -name*.txt
+find: unknown predicate `-name*.txt'
+devi77@LAPTOP-18KCPA72:~$ find . -name *.txt
+find: paths must precede expression: `funny.txt'
+find: possible unquoted pattern after predicate `-name'?
+devi77@LAPTOP-18KCPA72:~$ find . - name *.*
+.
+./ss.sh
+./outputfile.txt
+./devi
+./devi/tasks
+./devi/tasks/main.yml
+./devi/defaults
+./devi/defaults/main.yml
+./devi/meta
+./devi/meta/main.yml
+./devi/tests
+./devi/tests/inventory
+./devi/tests/test.yml
+./devi/galaxyinfor.txt
+./devi/README.md
+./devi/templates
+./devi/handlers
+./devi/handlers/main.yml
+./devi/vars
+./devi/vars/main.yml
+./devi/.travis.yml
+./devi/files
+./oddd.sh
+./func.sh
+./temp
+./temp/foldr1
+./temp/foldr1/mytext1,txt
+./temp/foldr1/infoldr
+./temp/foldr1/mytext1.txt
+./temp/foldr1/mix.txt
+./temp/abdtutor
+./temp/abdtutor/dir2
+./temp/abdtutor/dir1
+./temp/mytext.txt
+./temp/mytextbackup.txt
+./deviii_orchestrate.yml
+./.landscape
+./.landscape/sysinfo.log
+./funny.txt
+./.sudo_as_admin_successful
+./prometheus.yml
+./.daemon.json.swn
+./abclmpex
+./bootcamp
+./bootcamp/perms.txt
+./bootcamp/temp
+./bootcamp/tempy
+./bootcamp/allperms.txt
+./bootcamp/tempyy
+./bootcamp/tempyy/allperms.txt
+./bootcamp/empty.txt
+./myemptfile
+./mul.sh
+./detailss.sh
+./.ansible
+./.ansible/galaxy_cache
+./.ansible/tmp
+./user3
+./mull.sh
+./.bash_history
+./ZING
+./message.yml
+./zing
+./gg.sh
+./favfruit.sh
+./tomcat
+./myinfo.txt
+./start-tomcat
+./besties.sh
+./.daemon.json.swo
+./favfood.sh
+./tempy
+./devii
+./devii/tasks
+./devii/tasks/main.yml
+./devii/defaults
+./devii/defaults/main.yml
+./devii/meta
+./devii/meta/main.yml
+./devii/tests
+./devii/tests/inventory
+./devii/tests/test.yml
+./devii/README.md
+./devii/templates
+./devii/handlers
+./devii/handlers/main.yml
+./devii/vars
+./devii/vars/main.yml
+./devii/.travis.yml
+./devii/files
+./.motd_shown
+./ifelse.sh
+./.config
+./.config/procps
+./devi_orchestrate.yml
+./multi.sh
+./main.yml
+./multiple.sh
+./args.sh
+./odddnum.sh
+./primenumbers.sh
+./info.sh
+./pod.yaml
+./.profile
+./prime.sh
+./.bash_logout
+./funcc.sh
+./devi_playbook
+./devi_playbook/start-tomcat
+./devi_playbook/start-tomcat/tasks
+./devi_playbook/start-tomcat/tasks/main.yml
+./devi_playbook/start-tomcat/defaults
+./devi_playbook/start-tomcat/defaults/main.yml
+./devi_playbook/start-tomcat/meta
+./devi_playbook/start-tomcat/meta/main.yml
+./devi_playbook/start-tomcat/tests
+./devi_playbook/start-tomcat/tests/inventory
+./devi_playbook/start-tomcat/tests/test.yml
+./devi_playbook/start-tomcat/README.md
+./devi_playbook/start-tomcat/templates
+./devi_playbook/start-tomcat/handlers
+./devi_playbook/start-tomcat/handlers/main.yml
+./devi_playbook/start-tomcat/vars
+./devi_playbook/start-tomcat/vars/main.yml
+./devi_playbook/start-tomcat/.travis.yml
+./devi_playbook/start-tomcat/files
+./devi_playbook/devi_orchestrate.yml
+./devi_playbook/main.yml
+./devi_playbook/install
+./devi_playbook/install/tasks
+./devi_playbook/install/tasks/main.yml
+./devi_playbook/install/defaults
+./devi_playbook/install/defaults/main.yml
+./devi_playbook/install/meta
+./devi_playbook/install/meta/main.yml
+./devi_playbook/install/tests
+./devi_playbook/install/tests/inventory
+./devi_playbook/install/tests/test.yml
+./devi_playbook/install/README.md
+./devi_playbook/install/templates
+./devi_playbook/install/handlers
+./devi_playbook/install/handlers/main.yml
+./devi_playbook/install/vars
+./devi_playbook/install/vars/main.yml
+./devi_playbook/install/.travis.yml
+./devi_playbook/install/files
+./devi_playbook/devii.yml
+./devi_playbook/BasicPlay1.yml
+./devi_playbook/install-tomcat
+./devi_playbook/install-tomcat/tasks
+./devi_playbook/install-tomcat/tasks/main.yml
+./devi_playbook/install-tomcat/defaults
+./devi_playbook/install-tomcat/defaults/main.yml
+./devi_playbook/install-tomcat/meta
+./devi_playbook/install-tomcat/meta/main.yml
+./devi_playbook/install-tomcat/tests
+./devi_playbook/install-tomcat/tests/inventory
+./devi_playbook/install-tomcat/tests/test.yml
+./devi_playbook/install-tomcat/README.md
+./devi_playbook/install-tomcat/templates
+./devi_playbook/install-tomcat/start-tomcat
+./devi_playbook/install-tomcat/start-tomcat/tasks
+./devi_playbook/install-tomcat/start-tomcat/tasks/main.yml
+./devi_playbook/install-tomcat/start-tomcat/defaults
+./devi_playbook/install-tomcat/start-tomcat/defaults/main.yml
+./devi_playbook/install-tomcat/start-tomcat/meta
+./devi_playbook/install-tomcat/start-tomcat/meta/main.yml
+./devi_playbook/install-tomcat/start-tomcat/tests
+./devi_playbook/install-tomcat/start-tomcat/tests/inventory
+./devi_playbook/install-tomcat/start-tomcat/tests/test.yml
+./devi_playbook/install-tomcat/start-tomcat/README.md
+./devi_playbook/install-tomcat/start-tomcat/templates
+./devi_playbook/install-tomcat/start-tomcat/handlers
+./devi_playbook/install-tomcat/start-tomcat/handlers/main.yml
+./devi_playbook/install-tomcat/start-tomcat/vars
+./devi_playbook/install-tomcat/start-tomcat/vars/main.yml
+./devi_playbook/install-tomcat/start-tomcat/.travis.yml
+./devi_playbook/install-tomcat/start-tomcat/files
+./devi_playbook/install-tomcat/handlers
+./devi_playbook/install-tomcat/handlers/main.yml
+./devi_playbook/install-tomcat/vars
+./devi_playbook/install-tomcat/vars/main.yml
+./devi_playbook/install-tomcat/.travis.yml
+./devi_playbook/install-tomcat/files
+./user2
+./daemon.json
+./devii.yml
+./extention
+./ggg.sh
+./Hashmum
+./Hashmum/Hashinfor.txt
+./Hashmum/initialhashmum
+./Hashmum/initialhashmum/Hashinfor.txt
+./Hashmum/initialhashmum/initialhashmum
+./Hashmum/InitialHashmum
+./Hashmum/InitialHashmum/Hashinfor.txt
+./Hashmum/InitialHashmum/hashinfor.txt
+./Hashmum/InitialHashmum/InitialHashmum
+./.viminfo
+./inform.sh
+./bestfriends.sh
+./.bashrc
+./haiscript.sh
+./.bash_aliases
+./creat.yml
+./fib.sh
+./enjoy.txt
+./animal.sh
+./.local
+./.local/share
+./.local/share/nano
+./function.sh
+./initialgalaxy
+./initialgalaxy/galaxyinfor.txt
+./functions.sh
+./friendscript.sh
+./while.sh
+./initialZing
+./initialZing/Zinginfor.txt
+./oddnum.sh
+./employee.yml
+./information.sh
+./fibonacci.sh
+./abcimplex
+./abcimplex/initialgalaxy
+./abcimplex/initialgalaxy/initialgalaxy
+./abcimplex/initialgalaxy/abcimplex
+./eveodd.sh
+./devi.sh
+./details.sh
+./input.sh
+./user1
+./odd.sh
+./Zing
+./Zing/Initialzing
+./Zing/Initialzing/Zing
+./dear.sh
+./dear
+./dear/myinfo.txt
+./ubuntu.txt
+./user4
+find: ‘-’: No such file or directory
+find: ‘name’: No such file or directory
+animal.sh
+args.sh
+bestfriends.sh
+besties.sh
+creat.yml
+daemon.json
+dear.sh
+details.sh
+detailss.sh
+devi.sh
+devi_orchestrate.yml
+devii.yml
+deviii_orchestrate.yml
+employee.yml
+enjoy.txt
+eveodd.sh
+favfood.sh
+favfruit.sh
+fib.sh
+fibonacci.sh
+friendscript.sh
+func.sh
+funcc.sh
+function.sh
+functions.sh
+funny.txt
+gg.sh
+ggg.sh
+haiscript.sh
+ifelse.sh
+info.sh
+inform.sh
+information.sh
+input.sh
+main.yml
+message.yml
+mul.sh
+mull.sh
+multi.sh
+multiple.sh
+myinfo.txt
+odd.sh
+oddd.sh
+odddnum.sh
+oddnum.sh
+outputfile.txt
+pod.yaml
+prime.sh
+primenumbers.sh
+prometheus.yml
+ss.sh
+ubuntu.txt
+while.sh
+devi77@LAPTOP-18KCPA72:~$ find . -name "*e*.txt"
+./outputfile.txt
+./temp/foldr1/mytext1.txt
+./temp/mytext.txt
+./temp/mytextbackup.txt
+./bootcamp/perms.txt
+./bootcamp/allperms.txt
+./bootcamp/tempyy/allperms.txt
+./bootcamp/empty.txt
+./enjoy.txt
+devi77@LAPTOP-18KCPA72:~$ find . -name outputfile.txt -delete
+devi77@LAPTOP-18KCPA72:~$ find . -name "*e*.txt"
+./temp/foldr1/mytext1.txt
+./temp/mytext.txt
+./temp/mytextbackup.txt
+./bootcamp/perms.txt
+./bootcamp/allperms.txt
+./bootcamp/tempyy/allperms.txt
+./bootcamp/empty.txt
+./enjoy.txt
+devi77@LAPTOP-18KCPA72:~$ find . -type d - name "t*"
+find: paths must precede expression: `-'
+devi77@LAPTOP-18KCPA72:~$ ls
+Hashmum         dear.sh                 extention        haiscript.sh    multiple.sh      temp
+ZING            details.sh              favfood.sh       ifelse.sh       myemptfile       tempy
+Zing            detailss.sh             favfruit.sh      info.sh         myinfo.txt       tomcat
+abcimplex       devi                    fib.sh           inform.sh       odd.sh           ubuntu.txt
+abclmpex        devi.sh                 fibonacci.sh     information.sh  oddd.sh          user1
+animal.sh       devi_orchestrate.yml    friendscript.sh  initialZing     odddnum.sh       user2
+args.sh         devi_playbook           func.sh          initialgalaxy   oddnum.sh        user3
+bestfriends.sh  devii                   funcc.sh         input.sh        pod.yaml         user4
+besties.sh      devii.yml               function.sh      main.yml        prime.sh         while.sh
+bootcamp        deviii_orchestrate.yml  functions.sh     message.yml     primenumbers.sh  zing
+creat.yml       employee.yml            funny.txt        mul.sh          prometheus.yml
+daemon.json     enjoy.txt               gg.sh            mull.sh         ss.sh
+dear            eveodd.sh               ggg.sh           multi.sh        start-tomcat
+devi77@LAPTOP-18KCPA72:~$ free
+              total        used        free      shared  buff/cache   available
+Mem:        3842556     1625060       95040      373348     2122456     1683036
+Swap:       1048576        6180     1042396
+devi77@LAPTOP-18KCPA72:~$ uptime
+ 11:24:15 up  2:36,  0 users,  load average: 0.14, 0.31, 0.32
+devi77@LAPTOP-18KCPA72:~$ sudo apt install nmap
+[sudo] password for devi77:
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following additional packages will be installed:
+  libblas3 liblinear4 liblua5.3-0 lua-lpeg nmap-common
+Suggested packages:
+  liblinear-tools liblinear-dev ncat ndiff zenmap
+The following NEW packages will be installed:
+  libblas3 liblinear4 liblua5.3-0 lua-lpeg nmap nmap-common
+0 upgraded, 6 newly installed, 0 to remove and 0 not upgraded.
+Need to get 5669 kB of archives.
+After this operation, 26.8 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://archive.ubuntu.com/ubuntu focal/main amd64 libblas3 amd64 3.9.0-1build1 [142 kB]
+Get:2 http://archive.ubuntu.com/ubuntu focal/universe amd64 liblinear4 amd64 2.3.0+dfsg-3build1 [41.7 kB]
+Get:3 http://archive.ubuntu.com/ubuntu focal/main amd64 liblua5.3-0 amd64 5.3.3-1.1ubuntu2 [116 kB]
+Get:4 http://archive.ubuntu.com/ubuntu focal/universe amd64 lua-lpeg amd64 1.0.2-1 [31.4 kB]
+Get:5 http://archive.ubuntu.com/ubuntu focal/universe amd64 nmap-common all 7.80+dfsg1-2build1 [3676 kB]
+Get:6 http://archive.ubuntu.com/ubuntu focal/universe amd64 nmap amd64 7.80+dfsg1-2build1 [1662 kB]
+Fetched 5669 kB in 11s (536 kB/s)
+Selecting previously unselected package libblas3:amd64.
+(Reading database ... 76851 files and directories currently installed.)
+Preparing to unpack .../0-libblas3_3.9.0-1build1_amd64.deb ...
+Unpacking libblas3:amd64 (3.9.0-1build1) ...
+Selecting previously unselected package liblinear4:amd64.
+Preparing to unpack .../1-liblinear4_2.3.0+dfsg-3build1_amd64.deb ...
+Unpacking liblinear4:amd64 (2.3.0+dfsg-3build1) ...
+Selecting previously unselected package liblua5.3-0:amd64.
+Preparing to unpack .../2-liblua5.3-0_5.3.3-1.1ubuntu2_amd64.deb ...
+Unpacking liblua5.3-0:amd64 (5.3.3-1.1ubuntu2) ...
+Selecting previously unselected package lua-lpeg:amd64.
+Preparing to unpack .../3-lua-lpeg_1.0.2-1_amd64.deb ...
+Unpacking lua-lpeg:amd64 (1.0.2-1) ...
+Selecting previously unselected package nmap-common.
+Preparing to unpack .../4-nmap-common_7.80+dfsg1-2build1_all.deb ...
+Unpacking nmap-common (7.80+dfsg1-2build1) ...
+Selecting previously unselected package nmap.
+Preparing to unpack .../5-nmap_7.80+dfsg1-2build1_amd64.deb ...
+Unpacking nmap (7.80+dfsg1-2build1) ...
+Setting up lua-lpeg:amd64 (1.0.2-1) ...
+Setting up libblas3:amd64 (3.9.0-1build1) ...
+update-alternatives: using /usr/lib/x86_64-linux-gnu/blas/libblas.so.3 to provide /usr/lib/x86_64-linux-gnu/libblas.so.3 (libblas.so.3-x86_64-linux-gnu) in auto mode
+Setting up nmap-common (7.80+dfsg1-2build1) ...
+Setting up liblua5.3-0:amd64 (5.3.3-1.1ubuntu2) ...
+Setting up liblinear4:amd64 (2.3.0+dfsg-3build1) ...
+Setting up nmap (7.80+dfsg1-2build1) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.2) ...
+devi77@LAPTOP-18KCPA72:~$ sudo apt remove nmap
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libblas3 liblinear4 liblua5.3-0 lua-lpeg nmap-common
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  nmap
+0 upgraded, 0 newly installed, 1 to remove and 0 not upgraded.
+After this operation, 4499 kB disk space will be freed.
+Do you want to continue? [Y/n] y
+(Reading database ... 77739 files and directories currently installed.)
+Removing nmap (7.80+dfsg1-2build1) ...
+Processing triggers for man-db (2.9.1-1) ...
+devi77@LAPTOP-18KCPA72:~$ sudo apt update
+Get:1 http://ppa.launchpad.net/ansible/ansible/ubuntu focal InRelease [18.0 kB]
+Hit:2 http://archive.ubuntu.com/ubuntu focal InRelease
+Get:3 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+Get:4 http://archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Get:5 http://ppa.launchpad.net/ansible/ansible/ubuntu focal/main amd64 Packages [1132 B]
+Get:6 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [1177 kB]
+Get:7 http://archive.ubuntu.com/ubuntu focal-backports InRelease [108 kB]
+Get:8 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [1509 kB]
+Get:9 http://security.ubuntu.com/ubuntu focal-security/main Translation-en [210 kB]
+Get:10 http://security.ubuntu.com/ubuntu focal-security/main amd64 c-n-f Metadata [9100 B]
+Get:11 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 Packages [686 kB]
+Get:12 http://archive.ubuntu.com/ubuntu focal-updates/main Translation-en [296 kB]
+Get:13 http://security.ubuntu.com/ubuntu focal-security/restricted Translation-en [97.9 kB]
+Get:14 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [675 kB]
+Get:15 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 c-n-f Metadata [14.7 kB]
+Get:16 http://archive.ubuntu.com/ubuntu focal-updates/restricted amd64 Packages [736 kB]
+Get:17 http://security.ubuntu.com/ubuntu focal-security/universe Translation-en [115 kB]
+Get:18 http://security.ubuntu.com/ubuntu focal-security/universe amd64 c-n-f Metadata [13.0 kB]
+Get:19 http://archive.ubuntu.com/ubuntu focal-updates/restricted Translation-en [105 kB]
+Get:20 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [893 kB]
+Get:21 http://archive.ubuntu.com/ubuntu focal-updates/universe Translation-en [196 kB]
+Get:22 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 c-n-f Metadata [20.0 kB]
+Get:23 http://archive.ubuntu.com/ubuntu focal-backports/universe amd64 Packages [19.5 kB]
+Get:24 http://archive.ubuntu.com/ubuntu focal-backports/universe Translation-en [13.4 kB]
+Get:25 http://archive.ubuntu.com/ubuntu focal-backports/universe amd64 c-n-f Metadata [672 B]
+Fetched 7140 kB in 21s (344 kB/s)
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+10 packages can be upgraded. Run 'apt list --upgradable' to see them.
+devi77@LAPTOP-18KCPA72:~$ sudo apt upgrade
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+Calculating upgrade... Done
+The following packages were automatically installed and are no longer required:
+  libblas3 liblinear4 liblua5.3-0 lua-lpeg nmap-common
+Use 'sudo apt autoremove' to remove them.
+The following packages will be upgraded:
+  ansible libnss-systemd libpam-systemd libsystemd0 libudev1 systemd systemd-sysv systemd-timesyncd
+  ubuntu-advantage-tools udev
+10 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+8 standard security updates
+Need to get 28.2 MB of archives.
+After this operation, 931 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://ppa.launchpad.net/ansible/ansible/ubuntu focal/main amd64 ansible all 5.2.0-1ppa~focal [21.5 MB]
+Get:2 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libnss-systemd amd64 245.4-4ubuntu3.15 [95.8 kB]
+Get:3 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 udev amd64 245.4-4ubuntu3.15 [1364 kB]
+Get:4 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libudev1 amd64 245.4-4ubuntu3.15 [77.2 kB]
+Get:5 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 systemd-sysv amd64 245.4-4ubuntu3.15 [10.3 kB]
+Get:6 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 systemd-timesyncd amd64 245.4-4ubuntu3.15 [28.1 kB]
+Get:7 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libpam-systemd amd64 245.4-4ubuntu3.15 [186 kB]
+Get:8 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 systemd amd64 245.4-4ubuntu3.15 [3811 kB]
+Get:9 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libsystemd0 amd64 245.4-4ubuntu3.15 [270 kB]
+Get:10 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 ubuntu-advantage-tools amd64 27.5~20.04.1 [861 kB]
+Fetched 28.2 MB in 37s (758 kB/s)
+Preconfiguring packages ...
+(Reading database ... 77710 files and directories currently installed.)
+Preparing to unpack .../libnss-systemd_245.4-4ubuntu3.15_amd64.deb ...
+Unpacking libnss-systemd:amd64 (245.4-4ubuntu3.15) over (245.4-4ubuntu3.14) ...
+Preparing to unpack .../udev_245.4-4ubuntu3.15_amd64.deb ...
+Unpacking udev (245.4-4ubuntu3.15) over (245.4-4ubuntu3.14) ...
+Preparing to unpack .../libudev1_245.4-4ubuntu3.15_amd64.deb ...
+Unpacking libudev1:amd64 (245.4-4ubuntu3.15) over (245.4-4ubuntu3.14) ...
+Setting up libudev1:amd64 (245.4-4ubuntu3.15) ...
+(Reading database ... 77710 files and directories currently installed.)
+Preparing to unpack .../systemd-sysv_245.4-4ubuntu3.15_amd64.deb ...
+Unpacking systemd-sysv (245.4-4ubuntu3.15) over (245.4-4ubuntu3.14) ...
+Preparing to unpack .../systemd-timesyncd_245.4-4ubuntu3.15_amd64.deb ...
+Unpacking systemd-timesyncd (245.4-4ubuntu3.15) over (245.4-4ubuntu3.14) ...
+Preparing to unpack .../libpam-systemd_245.4-4ubuntu3.15_amd64.deb ...
+Unpacking libpam-systemd:amd64 (245.4-4ubuntu3.15) over (245.4-4ubuntu3.14) ...
+Preparing to unpack .../systemd_245.4-4ubuntu3.15_amd64.deb ...
+Unpacking systemd (245.4-4ubuntu3.15) over (245.4-4ubuntu3.14) ...
+Preparing to unpack .../libsystemd0_245.4-4ubuntu3.15_amd64.deb ...
+Unpacking libsystemd0:amd64 (245.4-4ubuntu3.15) over (245.4-4ubuntu3.14) ...
+Setting up libsystemd0:amd64 (245.4-4ubuntu3.15) ...
+(Reading database ... 77710 files and directories currently installed.)
+Preparing to unpack .../ubuntu-advantage-tools_27.5~20.04.1_amd64.deb ...
+Unpacking ubuntu-advantage-tools (27.5~20.04.1) over (27.4.2~20.04.1) ...
+Preparing to unpack .../ansible_5.2.0-1ppa~focal_all.deb ...
+Unpacking ansible (5.2.0-1ppa~focal) over (5.1.0-1ppa~focal) ...
+Setting up udev (245.4-4ubuntu3.15) ...
+invoke-rc.d: could not determine current runlevel
+update-initramfs: deferring update (trigger activated)
+Setting up ubuntu-advantage-tools (27.5~20.04.1) ...
+Installing new version of config file /etc/ubuntu-advantage/help_data.yaml ...
+Setting up ansible (5.2.0-1ppa~focal) ...
+Setting up systemd (245.4-4ubuntu3.15) ...
+Setting up systemd-timesyncd (245.4-4ubuntu3.15) ...
+Setting up systemd-sysv (245.4-4ubuntu3.15) ...
+Setting up libnss-systemd:amd64 (245.4-4ubuntu3.15) ...
+Setting up libpam-systemd:amd64 (245.4-4ubuntu3.15) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.2) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for dbus (1.12.16-2ubuntu2.1) ...
+Processing triggers for initramfs-tools (0.136ubuntu6.6) ...
+devi77@LAPTOP-18KCPA72:~$ sl
+
+
+                                              (@@) (  ) (@)  ( )  @@    ()    @     O     @     O      @
+                                         (   )
+                                     (@@@@)
+                                  (    )
+
+                                (@@@)
+                            ====        ________                ___________
+                        _D _|  |_______/        \__I_I_____===__|_________|
+                         |(_)---  |   H\________/ |   |        =|___ ___|      _________________
+                         /     |  |   H  |  |     |   |         ||_| |_||     _|                \_____A
+                        |      |  |   H  |__--------------------| [___] |   =|                        |
+                        | ________|___H__/__|_____/[][]~\_______|       |   -|                        |
+                        |/ |   |-----------I_____I [][] []  D   |=======|____|________________________|_
+                      __/ =| o |=-~O=====O=====O=====O\ ____Y___________|__|__________________________|_
+                       |/-=|___|=    ||    ||    ||    |_____/~\___/          |_D__D__D_|  |_D__D__D_|
+                        \_/      \__/  \__/  \__/  \__/      \_/               \_/   \_/    \_/   \_/
+
+
+
+
+
+
+PYTHON:
+devi77@LAPTOP-18KCPA72:~$ python3
+Python 3.8.10 (default, Nov 26 2021, 20:14:08)
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> "Helo"
+'Helo'
+>>> 50+20
+70
+>>> 50-20
+30
+>>> 50*20
+1000
+>>> 50/20
+2.5
+>>> 50%20
+10
+>>> name="Devi"
+>>> city="Kerala"
+>>> no=206297
+>>> print("name:" + name + "city:" + city + "no:" +str(no))
+name:Devicity:Keralano:206297
+>>>
+>>> no=20
+>>> if(n0 < 10):
+...      print(no, 'is a single digit number')
+... else:
+...      print(no, 'is a multi digit num')
+...
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'n0' is not defined
+>>> no=20
+>>> if(no < 10):
+...       print(no, 'is a single digit number')
+... else:
+...       print(no, 'is a multi digit number')
+...
+20 is a multi digit number
+>>>
+>>> no=8
+>>> if(no < 10):
+...      print(no, 'is a single digit number')
+... else:
+...      print(no, 'is a multi digit number')
+...
+8 is a single digit number
+>>>
+>>>
+>>> no=234
+>>> if(no < 10):
+...       print(no, 'is a single digit number')
+... elif(no < 100):
+...       print(no, 'is a two digit number')
+... elif(no < 1000):
+...       print(no, 'is a three digit number')
+... elif(no < 10000):
+...       print(no, 'is a four digit number')
+... else:
+...       print(no, 'is a multi digit number')
+...
+234 is a three digit number
+>>>
+>>> names =['devi' , 'sree' , 'venu' , 'sameena']
+>>> names[3]
+'sameena'
+>>> print(names[2])
+venu
+>>> for name in names:
+...      print(names)
+...
+['devi', 'sree', 'venu', 'sameena']
+['devi', 'sree', 'venu', 'sameena']
+['devi', 'sree', 'venu', 'sameena']
+['devi', 'sree', 'venu', 'sameena']
+>>>
+>>> name="devi"
+>>> marks=80
+>>> if(marks >=90):
+...        print(name, marks, 'grade is A+')
+... elif(marks >=70):
+...        print(name, marks, 'grade is A')
+... elif(marks >=60):
+...        print(name, marks, 'grade is B')
+... elif(marks >=50):
+...        print(name, marks, 'grade is C')
+... else:
+...        print(name, marks, 'grade is D')
+...
+devi 80 grade is A
+>>>
+>>> def multiple(num):
+...    for i in range(1,11):
+...       print(num, '*' , i, '=' ,num*i)
+...
+>>> multiple(6)
+6 * 1 = 6
+6 * 2 = 12
+6 * 3 = 18
+6 * 4 = 24
+6 * 5 = 30
+6 * 6 = 36
+6 * 7 = 42
+6 * 8 = 48
+6 * 9 = 54
+6 * 10 = 60
+>>>
+>>> def fab(n):
+...    n1,n2=0,1
+...    print(n1,n2)
+...    for i in range(1,n+1):
+...            n3=n1+n2
+...            print(' ' ,n3)
+...            n1=n2
+...            n2=n3
+...
+>>> fab(8)
+0 1
+  1
+  2
+  3
+  5
+  8
+  13
+  21
+  34
+>>>
+>>> def prime(n,m):
+...    for i in range(n,m):
+...           if(i%2!=0):
+...                print(i)
+...
+>>> prime(3,17)
+3
+5
+7
+9
+11
+13
+15
+>>>
+>>> class sample:
+...       def dosomething(self,no, name):
+...          self.no=no
+...          self.name=name
+...          print(self.name,"   ", self.no)
+...
+>>> smp = sample()
+>>> smp.dosomething(206297, 'Devi')
+Devi     206297
+
+devi77@LAPTOP-18KCPA72:~$ top
+top - 13:30:22 up  4:42,  0 users,  load average: 0.39, 0.23, 0.19
+Tasks:  16 total,   1 running,  15 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.3 us,  1.0 sy,  0.0 ni, 97.3 id,  0.1 wa,  0.0 hi,  0.3 si,  0.0 st
+MiB Mem :   3752.5 total,    284.8 free,   1623.8 used,   1844.0 buff/cache
+MiB Swap:   1024.0 total,    999.6 free,     24.4 used.   1592.4 avail Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    1 root      20   0    1744   1080   1016 S   0.0   0.0   0:00.04 init
+    7 root      20   0    1752     68      0 S   0.0   0.0   0:00.00 init
+    8 root      20   0    1752     76      0 S   0.0   0.0   0:00.57 init
+    9 devi77    20   0   10172   5180   3392 S   0.0   0.1   0:00.27 bash
+  339 root      20   0   10508   4056   3348 S   0.0   0.1   0:00.00 su
+  340 friend    20   0   10032   5004   3308 S   0.0   0.1   0:00.04 bash
+  407 root      20   0   10504   3976   3268 S   0.0   0.1   0:00.01 su
+  408 devi77    20   0   10160   5124   3360 S   0.0   0.1   0:00.13 bash
+ 2650 root      20   0    1752     68      0 S   0.0   0.0   0:00.00 init
+ 2651 root      20   0    1752     76      0 S   0.0   0.0   0:00.51 init
+ 2652 devi77    20   0   10044   5020   3260 S   0.0   0.1   0:00.06 bash
+ 2683 devi77    20   0   44804  33976  14604 S   0.0   0.9   0:00.52 python3
+ 2684 root      20   0    1752     68      0 S   0.0   0.0   0:00.00 init
+ 2685 root      20   0    1752     76      0 S   0.0   0.0   0:00.00 init
+ 2686 devi77    20   0   10044   5172   3416 S   0.0   0.1   0:00.04 bash
+ 2717 devi77    20   0   10876   3708   3196 R   0.0   0.1   0:00.01 top
+
+devi77@LAPTOP-18KCPA72:~$ Htop
+
+Command 'Htop' not found, did you mean:
+
+  command 'dtop' from deb diod (1.0.24-4)
+  command 'htop' from deb htop (2.2.0-2build1)
+  command 'top' from deb procps (2:3.3.16-1ubuntu2.3)
+  command 'qtop' from deb qtop (2.3.4-2build1)
+  command 'atop' from deb atop (2.4.0-3)
+  command 'utop' from deb utop (2.4.3-1build1)
+  command 'ctop' from deb ctop (1.0.0-2)
+  command 'itop' from deb itop (0.1-4build1)
+  command 'ptop' from deb fp-utils-3.0.4 (3.0.4+dfsg-23)
+  command 'ptop' from deb px (1.0.29-1)
+
+Try: sudo apt install <deb name>
+
+devi77@LAPTOP-18KCPA72:~$ last
+
+wtmp begins Thu Dec  9 21:23:09 2021
+devi77@LAPTOP-18KCPA72:~$ ps
+  PID TTY          TIME CMD
+ 2686 pts/2    00:00:00 bash
+ 2727 pts/2    00:00:00 ps
+devi77@LAPTOP-18KCPA72:~$ info
+devi77@LAPTOP-18KCPA72:~$ env
+SHELL=/bin/bash
+WSL_DISTRO_NAME=Ubuntu-20.04
+NAME=LAPTOP-18KCPA72
+PWD=/home/devi77
+LOGNAME=devi77
+HOME=/home/devi77
+LANG=C.UTF-8
+WSL_INTEROP=/run/WSL/2685_interop
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+LESSCLOSE=/usr/bin/lesspipe %s %s
+TERM=xterm-256color
+LESSOPEN=| /usr/bin/lesspipe %s
+USER=devi77
+SHLVL=1
+WSLENV=
+XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin
+HOSTTYPE=x86_64
+_=/usr/bin/env
+devi77@LAPTOP-18KCPA72:~$ man df
+devi77@LAPTOP-18KCPA72:~$ df -ah
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd        251G  2.0G  237G   1% /
+none            1.9G  365M  1.5G  20% /mnt/wsl
+/dev/sdc        251G  5.3G  233G   3% /mnt/wsl/docker-desktop-data/isocache
+none            1.9G  8.0K  1.9G   1% /mnt/wsl/docker-desktop/shared-sockets/guest-services
+none            1.9G  8.0K  1.9G   1% /mnt/wsl/docker-desktop/shared-sockets/host-services
+/dev/sdb        251G  123M  239G   1% /mnt/wsl/docker-desktop/docker-desktop-proxy
+/dev/loop0      370M  370M     0 100% /mnt/wsl/docker-desktop/cli-tools
+tmpfs              -     -     -    - /mnt/wsl/docker-desktop-data/tarcache/entries/docker.tar/75246b29e530464cde88bbba48fe76aba6a475d1ad98464ea4e092d379430e30/containers/services/docker/tmp
+overlay            -     -     -    - /mnt/wsl/docker-desktop-data/tarcache/entries/docker.tar/75246b29e530464cde88bbba48fe76aba6a475d1ad98464ea4e092d379430e30/containers/services/docker/rootfs
+tools           233G   71G  162G  31% /init
+none            1.9G     0  1.9G   0% /dev
+sysfs              0     0     0    - /sys
+proc               0     0     0    - /proc
+devpts             0     0     0    - /dev/pts
+none            1.9G  4.0K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G     0  1.9G   0% /run/user
+binfmt_misc        0     0     0    - /proc/sys/fs/binfmt_misc
+tmpfs           1.9G     0  1.9G   0% /sys/fs/cgroup
+cgroup2            0     0     0    - /sys/fs/cgroup/unified
+cgroup             0     0     0    - /sys/fs/cgroup/cpuset
+cgroup             0     0     0    - /sys/fs/cgroup/cpu
+cgroup             0     0     0    - /sys/fs/cgroup/cpuacct
+cgroup             0     0     0    - /sys/fs/cgroup/blkio
+cgroup             0     0     0    - /sys/fs/cgroup/memory
+cgroup             0     0     0    - /sys/fs/cgroup/devices
+cgroup             0     0     0    - /sys/fs/cgroup/freezer
+cgroup             0     0     0    - /sys/fs/cgroup/net_cls
+cgroup             0     0     0    - /sys/fs/cgroup/perf_event
+cgroup             0     0     0    - /sys/fs/cgroup/net_prio
+cgroup             0     0     0    - /sys/fs/cgroup/hugetlb
+cgroup             0     0     0    - /sys/fs/cgroup/pids
+cgroup             0     0     0    - /sys/fs/cgroup/rdma
+drivers         233G   71G  162G  31% /usr/lib/wsl/drivers
+lib             233G   71G  162G  31% /usr/lib/wsl/lib
+drvfs           233G   71G  162G  31% /mnt/c
+drvfs           245G  102M  245G   1% /mnt/d
+devi77@LAPTOP-18KCPA72:~$ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0
+100 2108k  100 2108k    0     0   136k      0  0:00:15  0:00:15 --:--:--  595k
+devi77@LAPTOP-18KCPA72:~$
+devi77@LAPTOP-18KCPA72:~$ python get-pip.py --user
+
+Command 'python' not found, did you mean:
+
+  command 'python3' from deb python3
+  command 'python' from deb python-is-python3
+
+devi77@LAPTOP-18KCPA72:~$ python3 get-pip.py --user
+Collecting pip
+  Downloading pip-21.3.1-py3-none-any.whl (1.7 MB)
+     |████████████████████████████████| 1.7 MB 919 kB/s
+Collecting wheel
+  Downloading wheel-0.37.1-py2.py3-none-any.whl (35 kB)
+Installing collected packages: wheel, pip
+  WARNING: The script wheel is installed in '/home/devi77/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts pip, pip3 and pip3.8 are installed in '/home/devi77/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed pip-21.3.1 wheel-0.37.1
+
+
+
+
+                                          
+
+
+
+

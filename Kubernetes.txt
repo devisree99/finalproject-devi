@@ -1,0 +1,192 @@
+
+kubectl apply -f pod.yaml
+pod/demo created
+PS C:\Users\HP\Desktop\Kubernetes> kubectl get pods
+NAME   READY   STATUS              RESTARTS   AGE
+demo   0/1     ContainerCreating   0          14s
+PS C:\Users\HP\Desktop\Kubernetes> kubectl logs demo
+PING 8.8.8.8 (8.8.8.8): 56 data bytes
+64 bytes from 8.8.8.8: seq=0 ttl=37 time=111.426 ms
+64 bytes from 8.8.8.8: seq=1 ttl=37 time=96.422 ms
+64 bytes from 8.8.8.8: seq=2 ttl=37 time=82.439 ms
+64 bytes from 8.8.8.8: seq=3 ttl=37 time=83.791 ms
+64 bytes from 8.8.8.8: seq=4 ttl=37 time=83.098 ms
+64 bytes from 8.8.8.8: seq=5 ttl=37 time=78.545 ms
+64 bytes from 8.8.8.8: seq=6 ttl=37 time=69.367 ms
+64 bytes from 8.8.8.8: seq=7 ttl=37 time=80.338 ms
+64 bytes from 8.8.8.8: seq=8 ttl=37 time=80.502 ms
+64 bytes from 8.8.8.8: seq=9 ttl=37 time=62.881 ms
+64 bytes from 8.8.8.8: seq=10 ttl=37 time=79.260 ms
+64 bytes from 8.8.8.8: seq=11 ttl=37 time=79.502 ms
+64 bytes from 8.8.8.8: seq=12 ttl=37 time=93.513 ms
+64 bytes from 8.8.8.8: seq=13 ttl=37 time=79.972 ms
+PS C:\Users\HP\Desktop\Kubernetes> kubectl delete -f pod.yaml
+pod "demo" deleted
+PS C:\Users\HP\Desktop\Kubernetes> docker swarm init
+Error response from daemon: This node is already part of a swarm. Use "docker swarm leave" to leave this swarm and join another one.
+PS C:\Users\HP\Desktop\Kubernetes> docker swarm levae
+
+Usage:  docker swarm COMMAND
+
+Manage Swarm
+
+Commands:
+  ca          Display and rotate the root CA
+  init        Initialize a swarm
+  join        Join a swarm as a node and/or manager
+  join-token  Manage join tokens
+  leave       Leave the swarm
+  unlock      Unlock swarm
+  unlock-key  Manage the unlock key
+  update      Update the swarm
+
+Run 'docker swarm COMMAND --help' for more information on a command.     
+PS C:\Users\HP\Desktop\Kubernetes> docker swarm leave  
+Error response from daemon: You are attempting to leave the swarm on a node that is participating as a manager. Removing the last manager erases all current state of the swarm. Use `--force` to ignore this message.     
+PS C:\Users\HP\Desktop\Kubernetes> docker swarm leave --force
+Node left the swarm.
+PS C:\Users\HP\Desktop\Kubernetes> docker swar init
+docker: 'swar' is not a docker command.
+See 'docker --help'
+PS C:\Users\HP\Desktop\Kubernetes> docker swarm init
+Swarm initialized: current node (w4koekuoowblavjdwbn6wpjoe) is now a manager.
+
+To add a worker to this swarm, run the following command:
+
+    docker swarm join --token SWMTKN-1-1qd97um0yqqjku83741ffxradk57l9cuyhkv97zmrklzwadtgs-4etnkdyvecsf77d2ofrjobcur 192.168.65.3:2377
+
+To add a manager to this swarm, run 'docker swarm join-token manager' and follow the instructions.
+
+PS C:\Users\HP\Desktop\Kubernetes> docker swarm join --token
+flag needs an argument: --token
+See 'docker swarm join --help'.
+PS C:\Users\HP\Desktop\Kubernetes> cd  
+PS C:\Users\HP\Desktop> cd ..
+PS C:\Users\HP> docker swarm join --token
+flag needs an argument: --token
+See 'docker swarm join --help'.
+PS C:\Users\HP> docker service create --name demo alpine:3.5 ping 8.8.8.8
+wiztkyb06zignkaybtxcm25s4
+overall progress: 1 out of 1 tasks
+1/1: running
+verify: Service converged
+PS C:\Users\HP> docker service ps demo
+ID             NAME      IMAGE        NODE             DESIRED STATE   CURRENT STATE            ERROR     PORTS
+wq52kt8un9ud   demo.1    alpine:3.5   docker-desktop   Running         Running 25 seconds ago
+PS C:\Users\HP> docker service rm demom 
+Error: No such service: demom
+PS C:\Users\HP> docker service rm demo 
+demo
+BB-STACK.YML:
+version: '3.7'
+
+services:
+  bb-app:
+    image: devi77/getting-started
+    ports:
+      - "8000:3000"
+PS C:\Users\HP\Desktop\Kubernetes>kubectl apply -f bb.yaml
+deployment.apps/bb-demo created
+service/bb-entrypoint created
+PS C:\Users\HP\Desktop\Kubernetes> kubectl get deployments
+NAME      READY   UP-TO-DATE   AVAILABLE   AGE
+bb-demo   0/1     1            0           17s
+PS C:\Users\HP\Desktop\Kubernetes> kubectl get services
+NAME            TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+bb-entrypoint   NodePort    10.106.120.134   <none>        3000:30001/TCP   36s
+kubernetes      ClusterIP   10.96.0.1        <none>        443/TCP          10d
+PS C:\Users\HP\Desktop\Kubernetes> kubectl delete -f bb.yaml
+deployment.apps "bb-demo" deleted
+service "bb-entrypoint" deleted
+DEAMON.JSON:
+{
+    "metrics-addr" : "127.0.0.1:9323",
+    "experimental" : true
+  }
+PROMETHEUS.YML:
+# my global config
+global:
+  scrape_interval:     15s # Set the scrape interval to every 15 seconds. Default is every 1 minute.
+  evaluation_interval: 15s # Evaluate rules every 15 seconds. The default is every 1 minute.
+  # scrape_timeout is set to the global default (10s).
+
+  # Attach these labels to any time series or alerts when communicating with
+  # external systems (federation, remote storage, Alertmanager).
+  external_labels:
+      monitor: 'codelab-monitor'
+
+# Load rules once and periodically evaluate them according to the global 'evaluation_interval'.
+rule_files:
+  # - "first.rules"
+  # - "second.rules"
+
+# A scrape configuration containing exactly one endpoint to scrape:
+# Here it's Prometheus itself.
+scrape_configs:
+  # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
+  - job_name: 'prometheus'
+
+    # metrics_path defaults to '/metrics'
+    # scheme defaults to 'http'.
+
+    static_configs:
+      - targets: ['host.docker.internal:9090'] # Only works on Docker Desktop for Windows
+
+  - job_name: 'docker'
+         # metrics_path defaults to '/metrics'
+         # scheme defaults to 'http'.
+
+    static_configs:
+      - targets: ['192.168.65.1:9323']
+
+PS C:\Users\HP\Desktop\Kubernetes> docker stack deploy -c bb-stack.yaml demo
+Creating network demo_default
+Creating service demo_bb-app
+PS C:\Users\HP\Desktop\Kubernetes> docker service ls
+ID             NAME          MODE         REPLICAS   IMAGE               
+                     PORTS
+8fbe0jvpz5bc   demo_bb-app   replicated   0/1        devi77/getting-started:latest   *:8000->3000/tcp
+PS C:\Users\HP\Desktop\Kubernetes> docker stack rm demo
+Removing service demo_bb-app
+Removing network demo_default
+PS C:\Users\HP\Desktop\Kubernetes> docker service create --replicas 1 --name my-prometheus --mount type=bind,source=C:/tmp/prometheus.yml,destination=/etc/prometheus/prometheus.yml --publish published=9090,target=9090,protocol=tcp prom/prometheus
+nw35ectg49oupshohu7xgjmjc
+overall progress: 0 out of 1 tasks
+1/1: ready
+verify: Detected task failure
+Operation continuing in background.
+Use `docker service ps nw35ectg49oupshohu7xgjmjc` to check progress.
+PS C:\Users\HP\Desktop\Kubernetes> docker service remove my-prometheus                  my-prometheus                                                      PS C:\hunger> docker sdervice ps                                   docker: 'sdervice' is not a docker command.
+See 'docker --help'
+PS C:\Users\HP\Desktop\Kubernetes> docker service ps 
+"docker service ps" requires at least 1 argument.
+See 'docker service ps --help'.
+
+Usage:  docker service ps [OPTIONS] SERVICE [SERVICE...]
+
+List the tasks of one or more services
+PS C:\Users\HP\Desktop\Kubernetes> docker service create \
+Error response from daemon: rpc error: code = InvalidArgument desc = ContainerSpec: 
+PS C:\Users\HP\Desktop\Kubernetes> docker service create `
+>> --replicas 10 `
+>> --name ping_service `
+>> alpine ping docker.com
+sakx8wpxi9xlgo47t9ydvk9zp
+overall progress: 10 out of 10 tasks
+1/10: running   [==================================================>]
+2/10: running   [==================================================>]
+3/10: running   [==================================================>]
+4/10: running   [==================================================>]
+5/10: running   [==================================================>]
+6/10: running   [==================================================>]
+7/10: running   [==================================================>]
+8/10: running   [==================================================>]
+9/10: running   [==================================================>]
+10/10: running   [==================================================>]
+verify: Service converged
+PS C:\Users\HP\Desktop\Kubernetes> docker service ls                                   
+ ID             NAME            MODE         REPLICAS   IMAGE                    PORTS     
+ qtdhwbrxiu03   my-prometheus   replicated   0/1        prom/prometheus:latest   *:9090->9090/tcp
+sakx8wpxi9xl   ping_service    replicated   10/10      alpine:latest
+PS C:\Users\HP\Desktop\Kubernetes> docker service remove my-prometheus                 
+ my-prometheus                                                      

@@ -1,0 +1,443 @@
+devi77@LAPTOP-18KCPA72:~$ top
+top - 13:30:22 up  4:42,  0 users,  load average: 0.39, 0.23, 0.19
+Tasks:  16 total,   1 running,  15 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.3 us,  1.0 sy,  0.0 ni, 97.3 id,  0.1 wa,  0.0 hi,  0.3 si,  0.0 st
+MiB Mem :   3752.5 total,    284.8 free,   1623.8 used,   1844.0 buff/cache
+MiB Swap:   1024.0 total,    999.6 free,     24.4 used.   1592.4 avail Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    1 root      20   0    1744   1080   1016 S   0.0   0.0   0:00.04 init
+    7 root      20   0    1752     68      0 S   0.0   0.0   0:00.00 init
+    8 root      20   0    1752     76      0 S   0.0   0.0   0:00.57 init
+    9 devi77    20   0   10172   5180   3392 S   0.0   0.1   0:00.27 bash
+  339 root      20   0   10508   4056   3348 S   0.0   0.1   0:00.00 su
+  340 friend    20   0   10032   5004   3308 S   0.0   0.1   0:00.04 bash
+  407 root      20   0   10504   3976   3268 S   0.0   0.1   0:00.01 su
+  408 devi77    20   0   10160   5124   3360 S   0.0   0.1   0:00.13 bash
+ 2650 root      20   0    1752     68      0 S   0.0   0.0   0:00.00 init
+ 2651 root      20   0    1752     76      0 S   0.0   0.0   0:00.51 init
+ 2652 devi77    20   0   10044   5020   3260 S   0.0   0.1   0:00.06 bash
+ 2683 devi77    20   0   44804  33976  14604 S   0.0   0.9   0:00.52 python3
+ 2684 root      20   0    1752     68      0 S   0.0   0.0   0:00.00 init
+ 2685 root      20   0    1752     76      0 S   0.0   0.0   0:00.00 init
+ 2686 devi77    20   0   10044   5172   3416 S   0.0   0.1   0:00.04 bash
+ 2717 devi77    20   0   10876   3708   3196 R   0.0   0.1   0:00.01 top
+
+
+
+
+
+
+
+devi77@LAPTOP-18KCPA72:~$ Htop
+
+Command 'Htop' not found, did you mean:
+
+  command 'dtop' from deb diod (1.0.24-4)
+  command 'htop' from deb htop (2.2.0-2build1)
+  command 'top' from deb procps (2:3.3.16-1ubuntu2.3)
+  command 'qtop' from deb qtop (2.3.4-2build1)
+  command 'atop' from deb atop (2.4.0-3)
+  command 'utop' from deb utop (2.4.3-1build1)
+  command 'ctop' from deb ctop (1.0.0-2)
+  command 'itop' from deb itop (0.1-4build1)
+  command 'ptop' from deb fp-utils-3.0.4 (3.0.4+dfsg-23)
+  command 'ptop' from deb px (1.0.29-1)
+
+Try: sudo apt install <deb name>
+
+devi77@LAPTOP-18KCPA72:~$ last
+
+wtmp begins Thu Dec  9 21:23:09 2021
+devi77@LAPTOP-18KCPA72:~$ ps
+  PID TTY          TIME CMD
+ 2686 pts/2    00:00:00 bash
+ 2727 pts/2    00:00:00 ps
+devi77@LAPTOP-18KCPA72:~$ info
+devi77@LAPTOP-18KCPA72:~$ env
+SHELL=/bin/bash
+WSL_DISTRO_NAME=Ubuntu-20.04
+NAME=LAPTOP-18KCPA72
+PWD=/home/devi77
+LOGNAME=devi77
+HOME=/home/devi77
+LANG=C.UTF-8
+WSL_INTEROP=/run/WSL/2685_interop
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+LESSCLOSE=/usr/bin/lesspipe %s %s
+TERM=xterm-256color
+LESSOPEN=| /usr/bin/lesspipe %s
+USER=devi77
+SHLVL=1
+WSLENV=
+XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin
+HOSTTYPE=x86_64
+_=/usr/bin/env
+devi77@LAPTOP-18KCPA72:~$ man df
+devi77@LAPTOP-18KCPA72:~$ df -ah
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd        251G  2.0G  237G   1% /
+none            1.9G  365M  1.5G  20% /mnt/wsl
+/dev/sdc        251G  5.3G  233G   3% /mnt/wsl/docker-desktop-data/isocache
+none            1.9G  8.0K  1.9G   1% /mnt/wsl/docker-desktop/shared-sockets/guest-services
+none            1.9G  8.0K  1.9G   1% /mnt/wsl/docker-desktop/shared-sockets/host-services
+/dev/sdb        251G  123M  239G   1% /mnt/wsl/docker-desktop/docker-desktop-proxy
+/dev/loop0      370M  370M     0 100% /mnt/wsl/docker-desktop/cli-tools
+tmpfs              -     -     -    - /mnt/wsl/docker-desktop-data/tarcache/entries/docker.tar/75246b29e530464cde88bbba48fe76aba6a475d1ad98464ea4e092d379430e30/containers/services/docker/tmp
+overlay            -     -     -    - /mnt/wsl/docker-desktop-data/tarcache/entries/docker.tar/75246b29e530464cde88bbba48fe76aba6a475d1ad98464ea4e092d379430e30/containers/services/docker/rootfs
+tools           233G   71G  162G  31% /init
+none            1.9G     0  1.9G   0% /dev
+sysfs              0     0     0    - /sys
+proc               0     0     0    - /proc
+devpts             0     0     0    - /dev/pts
+none            1.9G  4.0K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G     0  1.9G   0% /run/user
+binfmt_misc        0     0     0    - /proc/sys/fs/binfmt_misc
+tmpfs           1.9G     0  1.9G   0% /sys/fs/cgroup
+cgroup2            0     0     0    - /sys/fs/cgroup/unified
+cgroup             0     0     0    - /sys/fs/cgroup/cpuset
+cgroup             0     0     0    - /sys/fs/cgroup/cpu
+cgroup             0     0     0    - /sys/fs/cgroup/cpuacct
+cgroup             0     0     0    - /sys/fs/cgroup/blkio
+cgroup             0     0     0    - /sys/fs/cgroup/memory
+cgroup             0     0     0    - /sys/fs/cgroup/devices
+cgroup             0     0     0    - /sys/fs/cgroup/freezer
+cgroup             0     0     0    - /sys/fs/cgroup/net_cls
+cgroup             0     0     0    - /sys/fs/cgroup/perf_event
+cgroup             0     0     0    - /sys/fs/cgroup/net_prio
+cgroup             0     0     0    - /sys/fs/cgroup/hugetlb
+cgroup             0     0     0    - /sys/fs/cgroup/pids
+cgroup             0     0     0    - /sys/fs/cgroup/rdma
+drivers         233G   71G  162G  31% /usr/lib/wsl/drivers
+lib             233G   71G  162G  31% /usr/lib/wsl/lib
+drvfs           233G   71G  162G  31% /mnt/c
+drvfs           245G  102M  245G   1% /mnt/d
+devi77@LAPTOP-18KCPA72:~$ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0
+100 2108k  100 2108k    0     0   136k      0  0:00:15  0:00:15 --:--:--  595k
+devi77@LAPTOP-18KCPA72:~$
+devi77@LAPTOP-18KCPA72:~$ python get-pip.py --user
+
+Command 'python' not found, did you mean:
+
+  command 'python3' from deb python3
+  command 'python' from deb python-is-python3
+
+devi77@LAPTOP-18KCPA72:~$ python3 get-pip.py --user
+Collecting pip
+  Downloading pip-21.3.1-py3-none-any.whl (1.7 MB)
+     |████████████████████████████████| 1.7 MB 919 kB/s
+Collecting wheel
+  Downloading wheel-0.37.1-py2.py3-none-any.whl (35 kB)
+Installing collected packages: wheel, pip
+  WARNING: The script wheel is installed in '/home/devi77/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts pip, pip3 and pip3.8 are installed in '/home/devi77/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed pip-21.3.1 wheel-0.37.1
+devi77@LAPTOP-18KCPA72:~$ python3 -m pip install --user ansible
+Requirement already satisfied: ansible in /usr/lib/python3/dist-packages (5.2.0)
+Requirement already satisfied: ansible-core~=2.12.1 in /usr/lib/python3/dist-packages (from ansible) (2.12.1)
+Requirement already satisfied: resolvelib<0.6.0,>=0.5.3 in /usr/lib/python3/dist-packages (from ansible-core~=2.12.1->ansible) (0.5.4)
+devi77@LAPTOP-18KCPA72:~$ python3 -m pip install --user pramiko
+ERROR: Could not find a version that satisfies the requirement pramiko (from versions: none)
+ERROR: No matching distribution found for pramiko
+devi77@LAPTOP-18KCPA72:~$ python3 -m pip install --user paramiko
+Requirement already satisfied: paramiko in /usr/lib/python3/dist-packages (2.6.0)
+devi77@LAPTOP-18KCPA72:~$ sudo python get-pip.py
+[sudo] password for devi77:
+sudo: python: command not found
+devi77@LAPTOP-18KCPA72:~$ sudo python3 get-pip.py
+Collecting pip
+  Downloading pip-21.3.1-py3-none-any.whl (1.7 MB)
+     |████████████████████████████████| 1.7 MB 1.8 MB/s
+Collecting wheel
+  Downloading wheel-0.37.1-py2.py3-none-any.whl (35 kB)
+Installing collected packages: wheel, pip
+Successfully installed pip-21.3.1 wheel-0.37.1
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+devi77@LAPTOP-18KCPA72:~$ sudo python3 -m pip install ansible
+Requirement already satisfied: ansible in /usr/lib/python3/dist-packages (5.2.0)
+Requirement already satisfied: ansible-core~=2.12.1 in /usr/lib/python3/dist-packages (from ansible) (2.12.1)
+Requirement already satisfied: resolvelib<0.6.0,>=0.5.3 in /usr/lib/python3/dist-packages (from ansible-core~=2.12.1->ansible) (0.5.4)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+devi77@LAPTOP-18KCPA72:~$ sudo apt install ansible
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+ansible is already the newest version (5.2.0-1ppa~focal).
+The following packages were automatically installed and are no longer required:
+  libblas3 liblinear4 liblua5.3-0 lua-lpeg nmap-common
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+devi77@LAPTOP-18KCPA72:~$ sudo apt update
+Hit:1 http://ppa.launchpad.net/ansible/ansible/ubuntu focal InRelease
+Hit:2 http://archive.ubuntu.com/ubuntu focal InRelease
+Get:3 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+Get:4 http://archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Get:5 http://archive.ubuntu.com/ubuntu focal-backports InRelease [108 kB]
+Get:6 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [1509 kB]
+Get:7 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [893 kB]
+Fetched 2737 kB in 5s (553 kB/s)
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+All packages are up to date.
+devi77@LAPTOP-18KCPA72:~$ ansible all -m ping --ask-pass
+SSH password:
+[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match
+'all'
+devi77@LAPTOP-18KCPA72:~$ sudo apt install python3-argcomplete
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libblas3 liblinear4 liblua5.3-0 lua-lpeg nmap-common
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  python3-argcomplete
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 27.2 kB of archives.
+After this operation, 126 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu focal/universe amd64 python3-argcomplete all 1.8.1-1.3ubuntu1 [27.2 kB]
+Fetched 27.2 kB in 2s (13.3 kB/s)
+Selecting previously unselected package python3-argcomplete.
+(Reading database ... 77871 files and directories currently installed.)
+Preparing to unpack .../python3-argcomplete_1.8.1-1.3ubuntu1_all.deb ...
+Unpacking python3-argcomplete (1.8.1-1.3ubuntu1) ...
+Setting up python3-argcomplete (1.8.1-1.3ubuntu1) ...
+Processing triggers for man-db (2.9.1-1) ...
+devi77@LAPTOP-18KCPA72:~$ python3 -m pip install argcomplete
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: argcomplete in /usr/lib/python3/dist-packages (1.8.1)
+devi77@LAPTOP-18KCPA72:~$ sudo activate-global-python3-argcomplete
+sudo: activate-global-python3-argcomplete: command not found
+devi77@LAPTOP-18KCPA72:~$ bash --version
+GNU bash, version 5.0.17(1)-release (x86_64-pc-linux-gnu)
+Copyright (C) 2019 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+
+This is free software; you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+SCRIPT FILES:
+devi77@LAPTOP-18KCPA72:~$ nano devisree.sh
+devi77@LAPTOP-18KCPA72:~$ chmod +x devisree.sh
+devi77@LAPTOP-18KCPA72:~$ ./devisree.sh
+./devisree.sh: line 1: hi: command not found
+devi77@LAPTOP-18KCPA72:~$ cat devisree.sh
+hi wellcome to shell files
+devi77@LAPTOP-18KCPA72:~$ nano favfruit.sh
+devi77@LAPTOP-18KCPA72:~$ chmod 774 favfruit.sh
+devi77@LAPTOP-18KCPA72:~$ ./favfruit.sh
+enter fruit name
+grape
+  i like grape juice
+devi77@LAPTOP-18KCPA72:~$ ./favfruit.sh
+enter fruit name
+gova
+i like gova gova
+devi77@LAPTOP-18KCPA72:~$ nano ifelse.sh
+devi77@LAPTOP-18KCPA72:~$ chmod 774 ifelse.sh
+devi77@LAPTOP-18KCPA72:~$ ./ifelse.sh
+atype the argument
+7
+Boo,they don't match:(.
+devi77@LAPTOP-18KCPA72:~$ ./ifelse.sh
+atype the argument
+10
+yay,they match!
+devi77@LAPTOP-18KCPA72:~$ nano eveodd.sh
+devi77@LAPTOP-18KCPA72:~$ chmod 774 eveodd.sh
+devi77@LAPTOP-18KCPA72:~$ ./eveodd.sh
+-bash: ./eveodd.sh: bin/bash: bad interpreter: No such file or directory
+devi77@LAPTOP-18KCPA72:~$ nano eveodd.sh
+devi77@LAPTOP-18KCPA72:~$ chmod 774 eveodd.sh
+devi77@LAPTOP-18KCPA72:~$ ./eveodd.sh
+-bash: ./eveodd.sh: bin/bash: bad interpreter: No such file or directory
+devi77@LAPTOP-18KCPA72:~$ nano fib.sh
+devi77@LAPTOP-18KCPA72:~$ chmod +x fib.sh
+devi77@LAPTOP-18KCPA72:~$ ./fib.sh
+enter a value
+8
+the fibonacci series is:
+0
+1
+1
+2
+3
+5
+8
+13
+devi77@LAPTOP-18KCPA72:~$ nano eveodd.sh
+devi77@LAPTOP-18KCPA72:~$ chmod +x eveodd.sh
+devi77@LAPTOP-18KCPA72:~$ ./eveodd.sh
+-bash: ./eveodd.sh: bin/bash: bad interpreter: No such file or directory
+devi77@LAPTOP-18KCPA72:~$ nano prime.sh
+devi77@LAPTOP-18KCPA72:~$ chmod 774 prime.sh
+devi77@LAPTOP-18KCPA72:~$ ./prime.sh
+enter num:
+8
+8 is not a prime number
+devi77@LAPTOP-18KCPA72:~$ ./prime.sh
+enter num:
+2
+2 is a prime number
+devi77@LAPTOP-18KCPA72:~$ nano odddnum.sh
+devi77@LAPTOP-18KCPA72:~$ chmod +x odddnum.sh
+devi77@LAPTOP-18KCPA72:~$ ./odddnum.sh
+odd number
+15
+17
+19
+21
+23
+25
+devi77@LAPTOP-18KCPA72:~$ sudo apt install ansible
+[sudo] password for devi77:
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+ansible is already the newest version (5.2.0-1ppa~focal).
+The following packages were automatically installed and are no longer required:
+  libblas3 liblinear4 liblua5.3-0 lua-lpeg nmap-common
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+devi77@LAPTOP-18KCPA72:~$ ansible-galaxy init --force --offline devi
+- Role devi was created successfully
+devi77@LAPTOP-18KCPA72:~$ tree devi
+devi
+├── README.md
+├── defaults
+│   └── main.yml
+├── files
+├── galaxyinfor.txt
+├── handlers
+│   └── main.yml
+├── meta
+│   └── main.yml
+├── tasks
+│   └── main.yml
+├── templates
+├── tests
+│   ├── inventory
+│   └── test.yml
+└── vars
+    └── main.yml
+
+8 directories, 9 files
+devi77@LAPTOP-18KCPA72:~$ nano tomcat main.yml
+devi77@LAPTOP-18KCPA72:~$ nano start-tomcat main.yml
+devi77@LAPTOP-18KCPA72:~$ cat start-tomcat main.yml
+#start tomcat
+---
+  block:
+        name: start tomcat
+        command: < path of tomcat > /bin/startup.sh
+        register: output
+        become: true
+
+   always:
+      debug:
+        msg:
+               - start tomcat task ended with message: "{{output}}"
+               - tomcat started= "{{output.changed}}"
+...
+
+---
+-hosts: tomcat-node
+-roles:
+    {role: install-tomcat}
+    {role: start-tomcat}
+...
+
+devi77@LAPTOP-18KCPA72:~$ cd \install-tomcat
+-bash: cd: install-tomcat: No such file or directory
+devi77@LAPTOP-18KCPA72:~$ mkdir install-tomcat
+devi77@LAPTOP-18KCPA72:~$ cd install-tomcat
+devi77@LAPTOP-18KCPA72:~/install-tomcat$ ls
+devi77@LAPTOP-18KCPA72:~/install-tomcat$ mkdir task
+devi77@LAPTOP-18KCPA72:~/install-tomcat$ cd task
+devi77@LAPTOP-18KCPA72:~/install-tomcat/task$ cd
+devi77@LAPTOP-18KCPA72:~$ cd devi_playbook
+devi77@LAPTOP-18KCPA72:~/devi_playbook$ ls
+BasicPlay1.yml  devi_orchestrate.yml  devii.yml  install  install-tomcat  main.yml  start-tomcat
+devi77@LAPTOP-18KCPA72:~/devi_playbook$ mkdir install1
+devi77@LAPTOP-18KCPA72:~/devi_playbook$ cd install1
+devi77@LAPTOP-18KCPA72:~/devi_playbook/install1$ cd ..
+devi77@LAPTOP-18KCPA72:~/devi_playbook$ cd install
+devi77@LAPTOP-18KCPA72:~/devi_playbook/install$ cd ..
+devi77@LAPTOP-18KCPA72:~/devi_playbook$ cd install-tomcat
+devi77@LAPTOP-18KCPA72:~/devi_playbook/install-tomcat$ cd task
+-bash: cd: task: No such file or directory
+devi77@LAPTOP-18KCPA72:~/devi_playbook/install-tomcat$ ls
+README.md  defaults  files  handlers  meta  start-tomcat  tasks  templates  tests  vars
+devi77@LAPTOP-18KCPA72:~/devi_playbook/install-tomcat$ cd tasks
+devi77@LAPTOP-18KCPA72:~/devi_playbook/install-tomcat/tasks$ nano main.yml
+devi77@LAPTOP-18KCPA72:~/devi_playbook/install-tomcat/tasks$ cat main.yml
+---
+# tasks file for install-tomcat
+devi77@LAPTOP-18KCPA72:~/devi_playbook/install-tomcat/tasks$ cd ..
+devi77@LAPTOP-18KCPA72:~/devi_playbook/install-tomcat$ cd ..
+devi77@LAPTOP-18KCPA72:~/devi_playbook$ sudo ansible-playbook -i hosts devi_orchestrat.yml -vvv
+ansible-playbook [core 2.12.1]
+  config file = /etc/ansible/ansible.cfg
+  configured module search path = ['/root/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python3/dist-packages/ansible
+  ansible collection location = /root/.ansible/collections:/usr/share/ansible/collections
+  executable location = /usr/bin/ansible-playbook
+  python version = 3.8.10 (default, Nov 26 2021, 20:14:08) [GCC 9.3.0]
+  jinja version = 2.10.1
+  libyaml = True
+Using /etc/ansible/ansible.cfg as config file
+ERROR! the playbook: devi_orchestrat.yml could not be found
+devi77@LAPTOP-18KCPA72:~/devi_playbook$ sudo ansible-playbook -i hosts devi_orchestrate.yml -vvv
+ansible-playbook [core 2.12.1]
+  config file = /etc/ansible/ansible.cfg
+  configured module search path = ['/root/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python3/dist-packages/ansible
+  ansible collection location = /root/.ansible/collections:/usr/share/ansible/collections
+  executable location = /usr/bin/ansible-playbook
+  python version = 3.8.10 (default, Nov 26 2021, 20:14:08) [GCC 9.3.0]
+  jinja version = 2.10.1
+  libyaml = True
+Using /etc/ansible/ansible.cfg as config file
+host_list declined parsing /home/devi77/devi_playbook/hosts as it did not pass its verify_file() method
+Skipping due to inventory source not existing or not being readable by the current user
+script declined parsing /home/devi77/devi_playbook/hosts as it did not pass its verify_file() method
+auto declined parsing /home/devi77/devi_playbook/hosts as it did not pass its verify_file() method
+Skipping due to inventory source not existing or not being readable by the current user
+yaml declined parsing /home/devi77/devi_playbook/hosts as it did not pass its verify_file() method
+Skipping due to inventory source not existing or not being readable by the current user
+ini declined parsing /home/devi77/devi_playbook/hosts as it did not pass its verify_file() method
+Skipping due to inventory source not existing or not being readable by the current user
+toml declined parsing /home/devi77/devi_playbook/hosts as it did not pass its verify_file() method
+[WARNING]: Unable to parse /home/devi77/devi_playbook/hosts as an inventory source
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match
+'all'
+Skipping callback 'default', as we already have a stdout callback.
+Skipping callback 'minimal', as we already have a stdout callback.
+Skipping callback 'oneline', as we already have a stdout callback.
+
+PLAYBOOK: devi_orchestrate.yml *****************************************************************************************
+2 plays in devi_orchestrate.yml
+[WARNING]: Could not match supplied host pattern, ignoring: tomcat-node
+
+PLAY [tomcat-node] *****************************************************************************************************
+skipping: no hosts matched
+ERROR! the field 'hosts' is required but was not set
+devi77@LAPTOP-18KCPA72:~/devi_playbook$ nano basicplay1.yml
+devi77@LAPTOP-18KCPA72:~/devi_playbook$ cat basicplay1.yml
+-
+   name:Play 1
+   hosts: host1
+   tasks:
+      - name: Excute command 'date'
+        command: date
+devi77@LAPTOP-18KCPA72:~/devi_playbook$ ansible-playbook basicplay1.yml
