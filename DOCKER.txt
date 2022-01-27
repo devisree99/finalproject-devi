@@ -451,7 +451,7 @@ mysql.                  600     IN      A       172.18.0.2
 
  e461a0ba1517  ~  exit 
 
-PS C:\Users\sambi\Downloads\getting-started-master\getting-started-master\app> docker run -dp 3004:3000 `
+PS C:\Users\HP\Downloads\getting-started-master\getting-started-master\app> docker run -dp 3004:3000 `
 >> >> -w /app -v "$(pwd):/app" `
 >> >> --network todo-app `
 >> >> -e MYSQL_HOST=mysql `
@@ -519,7 +519,7 @@ b348b0200a13   alpine:latest                     "ping docker.com"        6 hour
 3f924bba3bc2   alpine:latest                     "ping docker.com"        6 hours ago      Up 6 hours                               ping_service.10.1ba1j2ad6uvarucyq21c8sz8i
 f60957a5ae6c   alpine:latest                     "ping docker.com"        6 hours ago      Up 6 hours                               ping_service.8.wnad4x4umbm3wxeeglblrbtqy
 5b5ea39c909b   devi77/getting-started:latest   "docker-entrypoint.s…"   6 hours ago      Up 6 hours                               demo_bb-app.1.v7ejnqyclfepopdz32564xd7b
-PS C:\Users\sambi\Downloads\getting-started-master\getting-started-master\app> docker exec -it de7c800e4f66 mysql -p todos
+PS C:\Users\HP\Downloads\getting-started-master\getting-started-master\app> docker exec -it de7c800e4f66 mysql -p todos
 Enter password: 
 Welcome to the MySQL monitor.  Commands end with ; or \g.
 Your MySQL connection id is 3
@@ -622,5 +622,5 @@ PS C:\Users\HP\Downloads\getting-started-master\getting-started-master\app> dock
 1850694d922df5d9dd10e87ed9deb45eaac848f355a7400a94d002115fc3d01b
 PS C:\Users\HP\Downloads\getting-started-master\getting-started-master\app> docker-compose up -d
 [+] Running 0/0
- - Container app_app_1  Creating                                        0.1sError response from daemon: invalid volume specification: '/run/desktop/mnt/host/c/Users/sambi/Downloads/getting-started-master/getting-started-master/app:app:rw': invalid mount config for type "bind": invalid mount path: 'app' mount path must be absolute  
+ - Container app_app_1  Creating                                        0.1sError response from daemon: invalid volume specification: '/run/desktop/mnt/host/c/Users/HP/Downloads/getting-started-master/getting-started-master/app:app:rw': invalid mount config for type "bind": invalid mount path: 'app' mount path must be absolute  
 
